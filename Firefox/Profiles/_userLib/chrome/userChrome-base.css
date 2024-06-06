@@ -1,0 +1,8 @@
+/*
+ */
+
+ /* NOTE: @imports must come before @namespace or any css */
+
+@import 'topFindBar.css';  /* Move Find Bar above the page */
+
+@import 'sidebar.css'; /* Allow a wider sidebar */

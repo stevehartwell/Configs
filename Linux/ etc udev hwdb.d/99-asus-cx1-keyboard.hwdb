@@ -1,0 +1,7 @@
+
+# swap the Control and Alt keys on the Asus CX1 laptop keyboard
+
+evdev:name:AT Translated Set 2 keyboard:*
+ KEYBOARD_KEY_1d=leftalt
+ KEYBOARD_KEY_38=leftctrl
+ 

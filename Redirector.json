@@ -1,0 +1,74 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2024-05-30T22:28:12.680Z",
+    "redirects": [
+        {
+            "description": "Photon Reddit",
+            "exampleUrl": "http://www.reddit.com/r/somesub/comments/xyzzy/title_of_comment",
+            "exampleResult": "https://photon-reddit.com/r/somesub/comments/xyzzy",
+            "error": null,
+            "includePattern": "https?://(www\\.)?reddit\\.com((/[^/]*){0,4})",
+            "excludePattern": "",
+            "patternDesc": "Photon Reddit",
+            "redirectUrl": "https://photon-reddit.com$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "go.redirectingat.com",
+            "exampleUrl": "https://go.redirectingat.com/?id=...&url=https%3A%2F%2Fwww.example.com",
+            "exampleResult": "https://www.example.com",
+            "error": null,
+            "includePattern": "http*://go.redirectingat.com/?*&url=*",
+            "excludePattern": "",
+            "patternDesc": "&url=https%3A%2F%2F",
+            "redirectUrl": "$3",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "linksynergy.com",
+            "exampleUrl": "https://click.linksynergy.com/deeplink?id=...&mid=...&u1=...&murl=https%3A%2F%2Fexample.com/...",
+            "exampleResult": "https://example.com/...",
+            "error": null,
+            "includePattern": "http*://click.linksynergy.com/deeplink?*murl=*",
+            "excludePattern": "",
+            "patternDesc": "murl=*",
+            "redirectUrl": "$3",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "googleadservices",
+            "exampleUrl": "https://www.googleadservices.com/pagead/aclk?adurl=https://.../ds_dest_url%3Dhttps://example.com/%3F...",
+            "exampleResult": "https://example.com/?...",
+            "error": null,
+            "includePattern": "http*://www.googleadservices.com/*/ds_dest_url%3D*",
+            "excludePattern": "",
+            "patternDesc": "ds_dest_url=...",
+            "redirectUrl": "$3",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}

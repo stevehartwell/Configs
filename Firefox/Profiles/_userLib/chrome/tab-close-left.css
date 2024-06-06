@@ -1,0 +1,29 @@
+/*
+ *
+ */
+
+.tab-content {
+    display: grid !important;
+    grid-template-columns: minmax(24px, auto) 1fr;
+}
+
+.tab-icon-stack,
+.tab-close-button {
+    display: inline-block !important;
+    grid-area: 1 / 1 / 1 / 1;
+    /* justify-self: center; /* horizontally */
+}
+
+.tab-close-button {
+    margin-left: -4px !important;
+}
+
+.tabbrowser-tab:not([pinned]):hover .tab-icon-stack,
+.tabbrowser-tab:not([pinned]):hover .tab-throbber,
+.tab-close-button {
+    visibility: hidden !important;
+}
+
+.tabbrowser-tab:not([pinned]):hover .tab-close-button {
+    visibility: visible !important;
+}

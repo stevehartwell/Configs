@@ -1,0 +1,39 @@
+! https://feedly.com
+feedly.com##.TopHeaderBar
+feedly.com##.Leftnav button[aria-label*="Leo Web Alerts"]
+feedly.com##.LeftnavList div[title="Manage Leo"]
+
+! 2022-03-20 https://www.newsy.com
+www.newsy.com##.shrunk.video-container
+
+! 2022-04-16 https://www.washingtonpost.com
+www.washingtonpost.com##.center.brad-4.relative.border-box
+
+! 2022-04-18 https://www.newyorker.com
+www.newyorker.com##.paywall-bar__expanded.paywall-bar__wrapper
+
+! 2022-05-23 https://www.washingtonpost.com
+www.washingtonpost.com##.paywall-overlay.overflow-auto.bottom-0.right-0.left-0.fixed
+
+! 2022-05-29 https://www.cnet.com
+www.cnet.com##.c-siteMenuNav_bar
+www.cnet.com##.heroVideo.videoWrap
+
+! 2022-06-02 https://www.foxnews.com
+www.foxnews.com##.sticky-video.video-ct.featured-video.featured
+
+! 2022-06-21 https://ride1up.com
+ride1up.com###notificationx-frontend-root
+
+! 2022-07-06 https://edition.cnn.com
+edition.cnn.com##.carousel-medium-strip.carousel--fixed.owl-carousel.js-owl-carousel
+
+! 2022-09-01 https://www.cnn.com
+www.cnn.com##.js-pg-rail-tall__head.pg-rail-tall__head
+
+! 2022-09-12 https://english.kyodonews.net
+english.kyodonews.net##.nav
+
+! 2023-02-02 https://arstechnica.com
+arstechnica.com##.u-noJsOnly.blockMessage--iconic.blockMessage--important.blockMessage
+

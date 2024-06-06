@@ -1,0 +1,19 @@
+/*
+ * This CSS file will be loaded by Firefox if it is located at:
+ *  [user-profile]/chrome/userChrome.css
+ * AND this config is set in either about:config or [user-profile]/user.js
+ *  user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+ */
+
+ /* NOTE: @imports must come before @namespace or any css */
+
+@import url('../userLib/chrome/userChrome-base.css');
+/* findbar and sidebar */
+
+/*@import '../userLib/firefox-csshacks/chrome/normal_pinned_tabs.css';*/
+/* todo: enhance before using */
+
+@import '../userLib/chrome/tab-close-left.css';
+
+@import '../userLib/firefox-csshacks/chrome/autohide_main_toolbar.css';
+/* autoshow when hover over tab bar */

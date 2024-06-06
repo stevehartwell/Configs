@@ -1,0 +1,5 @@
+/* Allow a wider sidebar */
+#sidebar-box {
+    max-width: 50% !important;
+    /* min-width: 300px !important; */
+}

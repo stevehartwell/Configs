@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1430074620537,z0000001588809694456*3486846021117107322,z0000001656614508461*8086693466544802023,z0000001657296121332*3639932842908180677,z0000001692315655614*0881546276761770816,z0000001692315764231*1942795190994674824,z0000001692317440963*0156491273892971286</id>
+	<updated>2023-09-08T20:12:18Z</updated>
+	<author>
+		<name>Steve H</name>
+		<email>ste3veh@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1430074620537</id>
+		<updated>2023-09-08T20:12:18Z</updated>
+		<content></content>
+		<apps:property name='from' value='voice-noreply@google.com'/>
+		<apps:property name='subject' value='recruiter'/>
+		<apps:property name='label' value='R/Recruiters'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_personal'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001588809694456*3486846021117107322</id>
+		<updated>2023-09-08T20:12:18Z</updated>
+		<content></content>
+		<apps:property name='to' value='shspamsink'/>
+		<apps:property name='label' value='shspamsink'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001656614508461*8086693466544802023</id>
+		<updated>2023-09-08T20:12:18Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='category:promotions'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001657296121332*3639932842908180677</id>
+		<updated>2023-09-08T20:12:18Z</updated>
+		<content></content>
+		<apps:property name='from' value='auto-reply@usps.com'/>
+		<apps:property name='subject' value='&quot;USPS® Expected Delivery&quot;'/>
+		<apps:property name='label' value='INBOX/_Tracking'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001692315655614*0881546276761770816</id>
+		<updated>2023-09-08T20:12:18Z</updated>
+		<content></content>
+		<apps:property name='from' value='marketmail@pcfma.org'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_promo'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001692315764231*1942795190994674824</id>
+		<updated>2023-09-08T20:12:18Z</updated>
+		<content></content>
+		<apps:property name='from' value='assistance@linxo.com'/>
+		<apps:property name='label' value='R/Fin/Foreign'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001692317440963*0156491273892971286</id>
+		<updated>2023-09-08T20:12:18Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='(from:auto-reply@usps.com subject:&quot;USPS® Item Delivered&quot;) OR (from:(TrackingUpdates@fedex.com) subject:&quot;Your package has been delivered&quot;)'/>
+		<apps:property name='label' value='R/Orders/Delivered'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>

@@ -1,0 +1,30 @@
+no-csp-reports: * true
+no-large-media: * true
+no-large-media: feedly.com false
+no-large-media: ground.news false
+no-popups: * true
+no-remote-fonts: * true
+no-remote-fonts: feedly.com false
+no-scripting: * true
+no-scripting: www.amazon.com false
+no-scripting: www.ebay.com false
+no-scripting: feedly.com false
+no-scripting: github.com false
+no-scripting: www.reddit.com false
+no-scripting: reuters.com false
+no-scripting: twitter.com false
+* * 3p block
+* * 3p-frame block
+* * 3p-script block
+www.amazon.com media-amazon.com * noop
+www.amazon.com ssl-images-amazon.com * noop
+arstechnica.com arstechnica.net * noop
+www.ebay.com ebayimg.com * noop
+www.ebay.com ebaystatic.com * noop
+feedly.com engagement.feedly.com * block
+github.com githubassets.com * noop
+github.com githubusercontent.com * noop
+ground.news twimg.com * noop
+www.reddit.com redditstatic.com * noop
+twitter.com twimg.com * noop
+feedly.com https:// image noop

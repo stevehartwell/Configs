@@ -1,3 +1,11 @@
+# The following entry is Icon\r
+Icon
+/$GIT_DIR
+#
+Mail/gmailctl/credentials.json
+Mail/gmailctl/token.json
+#
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

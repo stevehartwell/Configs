@@ -1,0 +1,16 @@
+/*
+ * This CSS file will be loaded by Firefox if it is located at:
+ *  [user-profile]/chrome/userChrome.css
+ * AND this config is set in either about:config or [user-profile]/user.js
+ *  user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+ */
+
+ /* NOTE: @imports must come before @namespace or any css */
+
+@import url('../userLib/chrome/userChrome-base.css');
+/* findbar and sidebar */
+
+/* Show favicons in bookmarks bar */
+#personal-bookmarks .bookmark-item .toolbarbutton-icon {
+    display: inline !important;
+}
