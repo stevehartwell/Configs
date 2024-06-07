@@ -14,11 +14,11 @@ user_pref('browser.link.open_newwindow', 2);
 // open external links in a new window, not a tab in frontmost window
 
 
-user_pref('browser.tabs.tabmanager.enabled', false);
-// hide the tabs popdown menu (SHH: doesn't seem to work anymore)
+// user_pref('browser.tabs.tabmanager.enabled', false);
+// hide the tabs popdown menu
 
 // user_pref('extensions.webextensions.restrictedDomains', '');
-// not yet needed: user_pref('extensions.quarantinedDomains.enabled', false);
+// user_pref('extensions.quarantinedDomains.enabled', false); // not yet needed
 // Don't block extensions (e.g Dark Reader) from working on restricted domains.
 
 
