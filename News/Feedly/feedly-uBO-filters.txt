@@ -12,12 +12,12 @@ mjtsai.com#$#div#main { margin: 0px 8px !important }
 mjtsai.com##div#aux
 
 !------------------------------------------------------------------------------!
-! Feedly content filters
+! Feedly content hiliter
 
-! Highlights
-!
-feedly.com#$#article:has(a.EntryTitleLink:has-text(/\bDiabet/i)) { background-color: yellow; }
-feedly.com#$#main:has(header a:has-text(/^(CNET|The Cheapskate|Wired)/)) article:has(a.EntryTitleLink:has-text(/\be-?bik(e|ing)/i)) { background-color: yellow; }
+!#include feedly-uBO-hilites.txt
+
+!------------------------------------------------------------------------------!
+! Feedly content filters
 
 ! Hide from Any Feed article
 !
@@ -33,8 +33,12 @@ feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Ryder|Stanley|World) Cup/i
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(British|French|Indonesia|U\.?S\.?|Women.?s) Open\b/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(L?PGA|The Masters)\b/))
 
+! Michael Tsai never has a graphic, so hide the (empty) placeholder.
+!
+feedly.com##main:has(header a:has-text("Michael Tsai")) div.EntryVisual
+
 ! News: Reddit or BBC World
-feedly.com##main:has(header a:has-text(/^(\/r\/news|BBC World News)/i)) article:has(a.EntryTitleLink:has-text("Diddy"))
+feedly.com##main:has(header a:has-text(/^(\/r\/news|BBC World News))) article:has(a.EntryTitleLink:has-text("Diddy"))
 
 ! Kyodo News
 feedly.com##main:has(header a:has-text("Kyodo News")) article:has(a.EntryTitleLink:has-text(/^BREAKING NEWS/))

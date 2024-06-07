@@ -1,0 +1,8 @@
+!
+!
+! These entries are topics of particular interest.
+! They set the background color rather than hide.
+!
+feedly.com#$#article:has(a.EntryTitleLink:has-text(/\bDiabet/i)) { background-color: yellow; }
+
+feedly.com#$#main:has(header a:has-text(/^(CNET|The Cheapskate|Wired)/)) article:has(a.EntryTitleLink:has-text(/\be-?bik(e|ing)/i)) { background-color: yellow; }
