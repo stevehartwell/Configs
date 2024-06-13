@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2024-05-30T22:28:12.680Z",
+    "createdAt": "2024-06-10T23:02:39.599Z",
     "redirects": [
         {
             "description": "Photon Reddit",
@@ -63,6 +63,23 @@
             "patternDesc": "ds_dest_url=...",
             "redirectUrl": "$3",
             "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "shop-links.co",
+            "exampleUrl": "https://shop-links.co/link/?url=https%3A%2F%2Fwww.example.com%2Fq%3Fid%3D123&...&...",
+            "exampleResult": "https://www.example.com/q?id=123",
+            "error": null,
+            "includePattern": "^https?://shop-links.co/link/\\?url=([^&]+)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "$1",
+            "patternType": "R",
             "processMatches": "urlDecode",
             "disabled": false,
             "grouped": false,
