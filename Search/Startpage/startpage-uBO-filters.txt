@@ -4,3 +4,4 @@
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*pinterest\.[^/]+\//i))
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*tiktok\.[^/]+\//i))
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*youtube\.[^/]+\//i))
+startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*instacart\.[^/]+\//i))
