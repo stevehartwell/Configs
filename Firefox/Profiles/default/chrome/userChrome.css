@@ -18,3 +18,7 @@
 
 @import '../userLib/firefox-csshacks/chrome/autohide_main_toolbar.css';
 /* autoshow address bar when hover over tab bar */
+
+.tabbrowser-tab {
+    font-size: 13px !important;
+}
