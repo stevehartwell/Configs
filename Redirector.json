@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2024-06-10T23:02:39.599Z",
+    "createdAt": "2024-06-15T02:07:58.330Z",
     "redirects": [
         {
             "description": "Photon Reddit",
@@ -28,6 +28,23 @@
             "excludePattern": "",
             "patternDesc": "&url=https%3A%2F%2F",
             "redirectUrl": "$3",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Skip mozgcp.net redirects",
+            "exampleUrl": "https://...mozgcp.net/.../https%3A//example.com/path%3fid%3d123",
+            "exampleResult": "https://example.com/path?id=123",
+            "error": null,
+            "includePattern": "http*://*/https%3A//*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://$3",
             "patternType": "W",
             "processMatches": "urlDecode",
             "disabled": false,
