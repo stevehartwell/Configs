@@ -17,22 +17,32 @@ feedly.com##div.LeftnavList div[title="Feedly AI"]
 !#include feedly-uBO-hilites.txt
 !#include feedly-uBO-ad-content-filters.txt
 
-! Hide from Any Feed article
+! Hide from Any Feed article --------------------------------------------------!
 !
 ! Gaming
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bgam(ing|e(-| awards| ?boy| console| demo| ?fest|pad| ?play|r| release|scom|stop))/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(adventure|arcade|console|horror|mobile|multiplayer|Netflix|PC|Squid|Steam|video) game/i))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Amazon|Epic|Rockstar) Games/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Amazon|Epic|Rockstar|Role-?playing) Games/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bMulti(Vers(e|us))/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bVR\b/))
-!
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(War|Mine)craft/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bAssassin.s Creed/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bCall of Duty/i))
+
+! Fantasy
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Ant-?|Bat|Spider-?|Super)man/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bBat-?girl/i))
+
+
 ! Sports
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Athletics|Badminton|(Base|Basket|Foot|Volley)ball|Boxing|F1\b|(Figure|Speed) skating|Golf|Gymnastics|Judo|(Car|Horse|Motor) racing|Rugby|(Skate|Snow)boarding|Soccer|Sport Climbing|Sumo|Swimming|Tennis\b|Trampoline|Wrestling)/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Champions|Major|Premier) League/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Ryder|Stanley|World) Cup/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(British|French|Indonesia|U\.?S\.?|Women.?s) Open\b/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(L?PGA|The Masters)\b/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(AEW|FIFA|MLB|NFL|NBA|UFC|WWE)\b/))
 
+! Feed-specific ---------------------------------------------------------------!
 ! Michael Tsai never has a graphic, so hide the (empty) placeholder.
 !
 feedly.com##main:has(header a:has-text("Michael Tsai")) div.EntryVisual
