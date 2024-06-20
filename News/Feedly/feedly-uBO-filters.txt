@@ -22,17 +22,21 @@ feedly.com##div.LeftnavList div[title="Feedly AI"]
 ! Gaming
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bgam(ing|e(-| awards| ?boy| console| demo| ?fest|pad| ?play|r| release|scom|stop))/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(adventure|arcade|console|horror|mobile|multiplayer|Netflix|PC|Squid|Steam|video) game/i))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Amazon|Epic|Rockstar|Role-?playing) Games/i))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\bMulti(Vers(e|us))/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Amazon|Epic|Rockstar|[Rr]ole-?playing) [Gg]ames/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bMulti([Vv]ers(e|us))/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bVR\b/))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\b(War|Mine)craft/i))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\bAssassin.s Creed/i))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\bCall of Duty/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(War|Mine)craft/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Assassin.?s Creed|Baldur.?s Gate|Call of Duty|Elden Ring|Metroid|Prince of Persia|Venom \d)/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Activision|Nintendo|Playstation|PS\d|Super Mario|Wii|Xbox)/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bMario (Kart|Strikers)/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/Digimon|Nukem|Pok[eé]mon/))
 
 ! Fantasy
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Ant-?|Bat|Spider-?|Super)man/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bBat-?girl/i))
-
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bSupervillain/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bDC League/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Power Ranger|Wolverine|Wonder Woman)/))
 
 ! Sports
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Athletics|Badminton|(Base|Basket|Foot|Volley)ball|Boxing|F1\b|(Figure|Speed) skating|Golf|Gymnastics|Judo|(Car|Horse|Motor) racing|Rugby|(Skate|Snow)boarding|Soccer|Sport Climbing|Sumo|Swimming|Tennis\b|Trampoline|Wrestling)/i))
@@ -41,6 +45,12 @@ feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Ryder|Stanley|World) Cup/i
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(British|French|Indonesia|U\.?S\.?|Women.?s) Open\b/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(L?PGA|The Masters)\b/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(AEW|FIFA|MLB|NFL|NBA|UFC|WWE)\b/))
+
+! Pop Culture
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bTaylor Swift/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bBeyonc[eé]/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bDepp/))
+
 
 ! Feed-specific ---------------------------------------------------------------!
 ! Michael Tsai never has a graphic, so hide the (empty) placeholder.
