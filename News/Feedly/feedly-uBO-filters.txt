@@ -27,6 +27,7 @@ feedly.com##article:has(a.EntryTitleLink:has-text(/\bMulti([Vv]ers(e|us))/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bVR\b/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(War|Mine)craft/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Assassin.?s Creed|Baldur.?s Gate|Call of Duty|Elden Ring|Metroid|Prince of Persia|Venom \d)/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(League of Legends)/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Activision|Nintendo|Playstation|PS\d|Super Mario|Wii|Xbox)/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bMario (Kart|Strikers)/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/Digimon|Nukem|Pok[eé]mon/))
@@ -44,7 +45,8 @@ feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Champions|Major|Premier) L
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Ryder|Stanley|World) Cup/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(British|French|Indonesia|U\.?S\.?|Women.?s) Open\b/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(L?PGA|The Masters)\b/))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\b(AEW|FIFA|MLB|NFL|NBA|UFC|WWE)\b/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(AEW|FIFA|ML[BS]|NBA|NCAA|NFL|NHL|UFC|WWE)\b/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Dodgers|Mets|Oilers|Sox|Yankees)\b/))
 
 ! Pop Culture
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bTaylor Swift/))
@@ -62,9 +64,6 @@ feedly.com##main:has(header a:has-text(/^(\/r\/news|BBC World News))) article:ha
 
 ! Kyodo News
 feedly.com##main:has(header a:has-text("Kyodo News")) article:has(a.EntryTitleLink:has-text(/^BREAKING NEWS/))
-
-! Japan Today
-feedly.com##main:has(header a:has-text("Japan Today")) article:has(a.EntryTitleLink:has-text(/\b(Canucks|heavyweight|hockey|NBA|Oilers|PGA|Yankees)/i))
 
 !------------------------------------------------------------------------------!
 ! Other site content filters
