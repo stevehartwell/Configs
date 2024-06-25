@@ -1,6 +1,7 @@
 
 ! Hide any startpage.com search results leading to these hosts
 !
+startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*doordash\.[^/]+\//i))
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*instacart\.[^/]+\//i))
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*pinterest\.[^/]+\//i))
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*tiktok\.[^/]+\//i))

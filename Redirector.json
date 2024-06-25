@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2024-06-15T02:07:58.330Z",
+    "createdAt": "2024-06-23T02:53:44.904Z",
     "redirects": [
         {
             "description": "Photon Reddit",
@@ -97,6 +97,23 @@
             "patternDesc": "",
             "redirectUrl": "$1",
             "patternType": "R",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "google redirect url",
+            "exampleUrl": "https://www.google.com/url?...&url=https://www.example.co.uk/path/file.html&...",
+            "exampleResult": "https://www.example.co.uk/path/file.html",
+            "error": null,
+            "includePattern": "https://www.google.com/url?*&url=*&*",
+            "excludePattern": "",
+            "patternDesc": "url=URLDecode(...)",
+            "redirectUrl": "$2",
+            "patternType": "W",
             "processMatches": "urlDecode",
             "disabled": false,
             "grouped": false,
