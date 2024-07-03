@@ -7,3 +7,6 @@ startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*tiktok\.[^/]+\//i))
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*yelp\.[^/]+\//i))
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*youtube\.[^/]+\//i))
+
+! hide tripadvisor subregions
+startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*tripadvisor\.com\./i))
