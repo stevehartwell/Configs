@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2024-06-23T02:53:44.904Z",
+    "createdAt": "2024-07-03T18:41:12.709Z",
     "redirects": [
         {
             "description": "Photon Reddit",
@@ -113,6 +113,40 @@
             "excludePattern": "",
             "patternDesc": "url=URLDecode(...)",
             "redirectUrl": "$2",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "goto.walmart.com redirect",
+            "exampleUrl": "https://goto.walmart.com/...&u=https%3A%2F%2Fwww.walmart.com%2FURLEncoded/path&...",
+            "exampleResult": "https://www.walmart.com/URLEncoded/path",
+            "error": null,
+            "includePattern": "https://goto.walmart.com/*&u=*&*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "$2",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "",
+            "exampleUrl": "https://assoc-redirect.amazon.com/.../https://www.example.com/%E3%83%BB?tag=...",
+            "exampleResult": "https://www.example.com/ã»",
+            "error": null,
+            "includePattern": "https://assoc-redirect.amazon.com/*/http*?*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "http$2",
             "patternType": "W",
             "processMatches": "urlDecode",
             "disabled": false,
