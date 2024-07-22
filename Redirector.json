@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2024-07-03T18:41:12.709Z",
+    "createdAt": "2024-07-13T23:55:04.195Z",
     "redirects": [
         {
             "description": "Photon Reddit",
@@ -147,6 +147,23 @@
             "excludePattern": "",
             "patternDesc": "",
             "redirectUrl": "http$2",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "buy.geni.us",
+            "exampleUrl": "https://buy.geni.us/...&GR_URL=https%3A%2F%2Fwww.example.com/...%3F...",
+            "exampleResult": "https://www.example.com/...",
+            "error": null,
+            "includePattern": "https://buy.geni.us/*&GR_URL=*%3F*",
+            "excludePattern": "",
+            "patternDesc": "GR_URL=",
+            "redirectUrl": "$2",
             "patternType": "W",
             "processMatches": "urlDecode",
             "disabled": false,
