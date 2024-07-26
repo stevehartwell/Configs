@@ -81,7 +81,7 @@ feedly.com##article:has(a.EntryTitleLink:has-text(/\bNASA\b/))
 
 ! Other topics I don't care about
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bBitcoin/i))
-feedly.com##main:article:has(a.EntryTitleLink:has-text(/\bKaraoke/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bKaraoke/i))
 
 
 ! Feed-specific ---------------------------------------------------------------!
