@@ -5,4 +5,4 @@
 !
 feedly.com#$#article:has(a.EntryTitleLink:has-text(/\bDiabet/i)) { background-color: yellow; }
 
-feedly.com#$#main:has(header a:has-text(/^(CNET|Wired)/)) article:has(a.EntryTitleLink:has-text(/\b(Electric |e-?)bik/i)) { background-color: yellow; }
+feedly.com#$#main:has(header a:has-text(/^(CNET|Wired)/)) article:has(a.EntryTitleLink:has-text(/\b(Electric (Mountain )?|e-?)bik/i)) { background-color: yellow; }

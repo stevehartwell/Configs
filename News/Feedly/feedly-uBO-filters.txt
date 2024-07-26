@@ -8,6 +8,8 @@ feedly.com##.TopHeaderBar
 feedly.com##header button[aria-label="Toggle AI Actions Panel"]
 feedly.com##nav.LeftnavDock button[aria-label="Create AI Feed"]
 feedly.com##div.LeftnavList div[title="Feedly AI"]
+! allow max num of article cards per row
+feedly.com#$##feedlyPageFX { max-width: revert !important; }
 
 !------------------------------------------------------------------------------!
 ! Article filters
@@ -18,7 +20,7 @@ feedly.com##div.LeftnavList div[title="Feedly AI"]
 !#include feedly-uBO-ad-content-filters.txt
 
 ! Hide from Any Feed article --------------------------------------------------!
-!
+
 ! Gaming
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Activision|Nintendo|Playstation|PS\d|Super Mario|Wii|Xbox)/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(adventure|arcade|console|horror|mobile|multiplayer|Netflix|PC|Squid|Steam|video) game/i))
@@ -48,6 +50,7 @@ feedly.com##article:has(a.EntryTitleLink:has-text(/\bVenom [0-9]/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bVR\b/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bWitcher/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bZelda/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bHalo Infinite/i))
 
 ! Fantasy
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Ant-?|Bat|Spider-?|Super)man/i))
@@ -56,24 +59,33 @@ feedly.com##article:has(a.EntryTitleLink:has-text(/\bSupervillain/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bDC League/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Power Ranger|Wolverine|Wonder Woman)/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bShe-Hulk/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bKenobi/i))
 
 ! Sports
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Athletics|Badminton|(Base|Basket|Foot|Volley)ball|Boxing|F1\b|(Figure|Speed) skating|Golf|Gymnastics|Judo|(Car|Horse|Motor) racing|Rugby|(Skate|Snow)boarding|Soccer|Sport Climbing|Sumo|Swimming|Tennis\b|Trampoline|Wrestling)/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Champions|Major|Premier) League/i))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Ryder|Stanley|World) Cup/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Ryder|Stanley|World) Cup\b/i))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(British|French|Indonesia|U\.?S\.?|Women.?s) Open\b/))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\b(L?PGA|The Masters)\b/))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\b(AEW|FIFA|ML[BS]|NBA|NCAA|NFL|NHL|UFC|WWE)\b/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(AEW|ESPN|FIFA|L?PGA|ML[BS]|NBA|NCAA|NFL|NHL|UFC|WWE)\b/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Dodgers|Mets|Oilers|Sox|Yankees)\b/))
 
 ! Pop Culture
 feedly.com##article:has(a.EntryTitleLink:has-text(/\bTaylor Swift/))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\bBeyonc[eé]/))
-feedly.com##article:has(a.EntryTitleLink:has-text(/\bDepp/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Beyonc[eé]|Depp|Eminem)/))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bCyberpunk/i))
+
+! Space
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bAstronomer/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bBlack Hole/i))
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bNASA\b/))
+
+! Other topics I don't care about
+feedly.com##article:has(a.EntryTitleLink:has-text(/\bBitcoin/i))
+feedly.com##main:article:has(a.EntryTitleLink:has-text(/\bKaraoke/i))
 
 
 ! Feed-specific ---------------------------------------------------------------!
-! Michael Tsai never has a graphic, so hide the (empty) placeholder.
+! Michael Tsai articles never have a graphic, so hide the (empty) placeholder.
 !
 feedly.com##main:has(header a:has-text("Michael Tsai")) div.EntryVisual
 
@@ -96,3 +108,6 @@ mjtsai.com##div#aux
 ! Kyodo News
 english.kyodonews.net##header
 english.kyodonews.net##nav
+
+! Wired
+www.wired.com##section#link-banner

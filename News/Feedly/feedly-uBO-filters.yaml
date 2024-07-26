@@ -1,0 +1,15 @@
+#
+#
+# ---
+Definitions:
+  - &K1 'main:has(header a:has-text())'
+  - &K2 'nuthin'
+
+Sports:
+  *K1: [
+    ab, cde, fgh, i, jk, lmn, op,
+    more1, more2, more3
+  ]
+  *K2: [not, /much/]
+
+...
