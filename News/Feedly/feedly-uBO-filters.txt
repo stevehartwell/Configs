@@ -88,6 +88,7 @@ feedly.com##article:has(a.EntryTitleLink:has-text(/\bKaraoke/i))
 ! Michael Tsai articles never have a graphic, so hide the (empty) placeholder.
 !
 feedly.com##main:has(header a:has-text("Michael Tsai")) div.EntryVisual
+feedly.com##main:has(header a:has-text("Michael Tsai")) .SelectedEntryScroller:first-child > :first-child > :first-child
 
 ! News: Reddit or BBC World
 feedly.com##main:has(header a:has-text(/^(\/r\/news|BBC World News))) article:has(a.EntryTitleLink:has-text("Diddy"))
@@ -111,3 +112,6 @@ english.kyodonews.net##nav
 
 ! Wired
 www.wired.com##section#link-banner
+
+! Photon Reddit
+photon-reddit.com##ph-comment-form

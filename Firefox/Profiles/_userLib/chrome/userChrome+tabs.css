@@ -7,14 +7,56 @@
 
 /* NOTE: @imports must come before @namespace or any css */
 
-@import url('../userLib/chrome/userChrome-base.css');
+@import url('../userLib/chrome/userChrome_base.css');
 /* findbar and sidebar */
 
 @import url('../userLib/chrome/tab-close-left.css');
 
-@import url('../userLib/chrome/autohide_main_toolbar.css');
+/* @import url('../userLib/firefox-csshacks/chrome/autohide_bookmarks_and_main_toolbars.css'); */
+@import url('../userLib/firefox-csshacks/chrome/autohide_main_toolbar.css');
 /* autoshow address bar when hover over tab bar */
+
+/*
+    <toolbox id="navigator-toolbox">
+      <vbox id="titlebar">
+        <toolbar id="toolbar-menubar" class="browser-toolbar ...">
+        <toolbar id="TabsToolbar" class="browser-toolbar ...">
+      </vbox>
+      <toolbar id="nav-bar" class="browser-toolbar ...">
+      <toolbar id="PersonalToolbar" class="browser-toolbar">
+ */
+
+/* Undo some firefoxpwa css */
+#nav-bar:not(.shown) > :not(#customizationui-widget-panel) {
+  display: flex !important;
+}
+
+ /* hide non-removable X-style close window toolbar button */
+#close-page-button { display: none !important; }
+
 
 .tabbrowser-tab {
     font-size: 13px !important;
 }
+
+.tabbrowser-tab[pinned] {
+    border-width: 4px !important;
+    /* min-width: var(--tab-min-width); */
+}
+
+/*
+ * debugging
+#titlebar:hover ~ .browser-toolbar {
+    background-color: green !important;
+}
+#nav-bar:hover {
+    background-color: cornsilk !important;
+}
+#nav-bar:hover + #PersonalToolbar {
+    background-color: orange !important;
+}
+
+#PersonalToolbar {
+    background-color: red !important;
+}
+*/

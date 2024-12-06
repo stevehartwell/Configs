@@ -6,3 +6,8 @@
 @import 'topFindBar.css';  /* Move Find Bar above the page */
 
 @import 'sidebar.css'; /* Allow a wider sidebar */
+
+.titlebar-spacer {
+    background-color: orchid;
+    max-width: 10px !important;
+}

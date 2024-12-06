@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allowApple</key>
+	<false/>
+	<key>allowDNS</key>
+	<false/>
+	<key>allowInstalled</key>
+	<false/>
+	<key>allowSimulatorApps</key>
+	<false/>
+	<key>blockList</key>
+	<string>https://ceadd.ca/blockyouxlist.txt</string>
+	<key>blockMode</key>
+	<false/>
+	<key>disabled</key>
+	<false/>
+	<key>installTime</key>
+	<date>2024-03-19T07:19:49Z</date>
+	<key>noIconMode</key>
+	<false/>
+	<key>noupdateMode</key>
+	<false/>
+	<key>passiveMode</key>
+	<false/>
+	<key>useBlockList</key>
+	<true/>
+</dict>
+</plist>

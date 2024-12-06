@@ -1,40 +1,55 @@
 {
+  "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+  "workbench.preferredLightColorTheme": "Visual Studio Light",
+  "workbench.editorAssociations": {
+    "*.mp3": "vscode.audioPreview"
+  },
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#000000",
+    "terminal.foreground": "#00FF00"
+  },
+  "security.workspace.trust.enabled": false,
+  "extensions.autoUpdate": false,
+  "files.associations": {
+    "*.jsm": "javascript",
+    "*.bttpreset": "json"
+  },
   "breadcrumbs.enabled": true,
+  "editor.accessibilitySupport": "off",
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "boundary",
-  "eslint.alwaysShowStatus": true,
+  "editor.formatOnPaste": true,
   "editor.rulers": [
     80
   ],
   "git.autofetch": true,
   "telemetry.telemetryLevel": "off",
+  "window.nativeTabs": true,
+  "window.titleBarStyle": "native",
   "window.clickThroughInactive": false,
-  "window.commandCenter": true,
+  "window.autoDetectColorScheme": true,
   "window.zoomLevel": 1,
-  "workbench.preferredDarkColorTheme": "Visual Studio Dark",
-  "workbench.preferredLightColorTheme": "Visual Studio Light",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "javascript.preferences.quoteStyle": "single",
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "typescript.suggest.completeFunctionCalls": true,
-  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.surveys.enabled": false,
-  "vsintellicode.features.apiExamplests": "enabled",
-  "css.format.spaceAroundSelectorSeparator": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "[typescript]": {
+  "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.surveys.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescriptreact]": {
     "editor.formatOnPaste": true,
@@ -42,12 +57,13 @@
     "editor.formatOnType": true,
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+  "css.format.spaceAroundSelectorSeparator": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
   "svg.preview.mode": "svg",
   "security.workspace.trust.untrustedFiles": "open",
-  "window.nativeTabs": true,
-  "window.titleBarStyle": "native",
   "explorer.sortOrder": "mixed",
-  "editor.accessibilitySupport": "off",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -62,37 +78,30 @@
   },
   "xmlTools.splitAttributesOnFormat": true,
   "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
-  "window.autoDetectColorScheme": true,
-  "cmake.configureOnOpen": false,
-  "cmake.configureOnEdit": false,
-  "cmake.exportCompileCommandsFile": false,
   "makefile.configureAfterCommand": false,
   "makefile.configureOnEdit": false,
   "makefile.configureOnOpen": false,
-  "editor.formatOnPaste": true,
   "python.analysis.autoSearchPaths": false,
   "python.diagnostics.sourceMapsEnabled": true,
   "[python]": {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.wordBasedSuggestions": "off"
   },
-  "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
-  "security.workspace.trust.enabled": false,
   "diffEditor.maxComputationTime": 0,
-  "extensions.autoUpdate": "onlySelectedExtensions",
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "pandoc.render.openViewer": false,
   "window.customTitleBarVisibility": "never",
-  "workbench.colorTheme": "Visual Studio Light",
-  "workbench.colorCustomizations": {
-    "terminal.background": "#000000",
-    "terminal.foreground": "#00FF00"
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "workbench.editor.enablePreview": false,
+  "diffEditor.experimental.useTrueInlineView": true,
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false,
+    "**/Icon?": true
   },
-  "files.associations": {
-    "*.jsm": "javascript",
-    "*.bttpreset": "json"
-  },
-  "cmake.showOptionsMovedNotification": false,
-  "diffEditor.ignoreTrimWhitespace": false
+  "lldb.suppressUpdateNotifications": true
 }

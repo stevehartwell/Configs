@@ -1,6 +1,6 @@
 //
 /******************************************************************************
- * user.js                                                                    *
+ * SHH custom user.js OBSOLETED by BETTERFOX-user.js                          *
  ******************************************************************************/
 
 user_pref('toolkit.legacyUserProfileCustomizations.stylesheets', true);
