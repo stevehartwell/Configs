@@ -1,0 +1,143 @@
+{
+  "BTTPresetCreatorNotes" : "",
+  "BTTPresetInfoURL" : "",
+  "BTTPresetName" : "All Apps Touchpad",
+  "BTTPresetColor" : "71.267400, 207.304290, 209.610000, 255.000000",
+  "BTTPresetUUID" : "957E4592-0002-4078-AE49-8225D309EA54",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1700879432.650346,
+          "BTTTriggerType" : 197,
+          "BTTTriggerTypeDescriptionReadOnly" : "Pinch With Thumb And 2 Fingers",
+          "BTTTriggerTypeDescription" : "Smaller Text",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "BCA581C8-5328-4D33-9748-ADC4BC00EAEA",
+          "BTTLayoutIndependentActionChar" : "-",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "56,55,27",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 6,
+          "BTTGestureNotes" : "Smaller Text",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTHUDText" : "Smaller Text",
+            "BTTShowHUD" : 1
+          }
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1700879432.650367,
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Swipe Right",
+          "BTTTriggerTypeDescription" : "Minimize Window",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "22015A2C-4247-4205-831B-7A541B9774A0",
+          "BTTPredefinedActionType" : 106,
+          "BTTPredefinedActionName" : "Minimize Window Under Cursor",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 3,
+          "BTTGestureNotes" : "Minimize Window"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1700879432.650423,
+          "BTTTriggerType" : 198,
+          "BTTTriggerTypeDescriptionReadOnly" : "Spread With Thumb And 2 Fingers",
+          "BTTTriggerTypeDescription" : "Larget Text",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "A43C2074-F3A3-4CBA-AAB6-35B6FDCCF999",
+          "BTTLayoutIndependentActionChar" : "=",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "56,55,24",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 5,
+          "BTTGestureNotes" : "Larget Text",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTHUDText" : "Larger Text",
+            "BTTShowHUD" : 1
+          }
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1700879432.6502571,
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Swipe Left",
+          "BTTTriggerTypeDescription" : "Maximize Window",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "D368620A-4BD5-46FF-9417-EF113F6B3035",
+          "BTTPredefinedActionType" : 107,
+          "BTTPredefinedActionName" : "Zoom Window Under Cursor",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 4,
+          "BTTGestureNotes" : "Maximize Window"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1700879432.6503859,
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Swipe Down",
+          "BTTTriggerTypeDescription" : "Hide Other Apps",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "F687ADEC-71D5-4556-8186-325A3D79B63A",
+          "BTTPredefinedActionType" : 366,
+          "BTTPredefinedActionName" : "Empty Placeholder",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 2,
+          "BTTAdditionalActions" : [
+            {
+              "BTTActionCategory" : 0,
+              "BTTLastUpdatedAt" : 1700879432.6502681,
+              "BTTTriggerParentUUID" : "F687ADEC-71D5-4556-8186-325A3D79B63A",
+              "BTTIsPureAction" : true,
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTUUID" : "908D4A89-FD89-48DB-80A2-59632B4F3539",
+              "BTTLayoutIndependentActionChar" : "h",
+              "BTTShortcutToSend" : "58,55,4",
+              "BTTEnabled" : 1,
+              "BTTEnabled2" : 1,
+              "BTTOrder" : 0
+            }
+          ],
+          "BTTGestureNotes" : "Hide Other Apps"
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1700879432.6503248,
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Swipe Up",
+          "BTTTriggerTypeDescription" : "Hide Front App",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "4025B3E7-657C-4452-8ABB-A048F52394DD",
+          "BTTLayoutIndependentActionChar" : "h",
+          "BTTAutoAdaptActionToKeyboardLayout" : true,
+          "BTTGenericActionConfig" : "autoAdapt",
+          "BTTShortcutToSend" : "55,4",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 1,
+          "BTTGestureNotes" : "Hide Front App"
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}

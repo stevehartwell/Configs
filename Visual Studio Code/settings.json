@@ -136,5 +136,7 @@
         ]
       }
     ]
-  }
+  },
+  "git.allowForcePush": true,
+  "git.rebaseWhenSync": true
 }

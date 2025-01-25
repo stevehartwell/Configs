@@ -1,7 +1,8 @@
 {
   "BTTPresetCreatorNotes" : "",
   "BTTPresetInfoURL" : "",
-  "BTTPresetName" : "Default",
+  "BTTPresetName" : "_Settings",
+  "BTTPresetColor" : "59.899500, 221.850000, 92.289600, 255.000000",
   "BTTGeneralSettings" : {
     "BTTPathSampleSize" : 100,
     "BTTCMOnTop" : true,
@@ -18,7 +19,7 @@
     "singleFingerTapRight" : 0.05000000074505806,
     "BTTDrawingStrokeWidth" : 4,
     "cornerSnap" : true,
-    "BTRScrollSpeed" : 1,
+    "BTRScrollSpeed" : "1.000000",
     "BTTTouchBarHapticFeedbackRelease" : 0,
     "BSTIncreaseSnappingArea" : true,
     "showDrawingsTab" : true,
@@ -29,12 +30,12 @@
     "useAppleRemotePlugin" : false,
     "BTTTouchBarFontSize" : 15,
     "BSTSnapAreaDefaultPictoDistanceFromBottom" : 0.10000000149011612,
-    "BTRMouseSpeed" : 1,
+    "BTRMouseSpeed" : "1.000000",
     "BSTPreventTopMissionControl" : true,
     "BSTSnapAreaDefaultDashedBorder" : false,
     "BTTEnablePalmRecognition" : true,
     "BSTBrokenAPICheckEnabled" : false,
-    "oldScale" : 1.5,
+    "oldScale" : 1.534246563911438,
     "BTTAllowThumbIfAllFingersArePlacedSimultaneously" : true,
     "BTTStageManagerLeftGap" : 190,
     "BTTNotchBarStandardMenubarModeHideRightFixed" : false,
@@ -45,19 +46,18 @@
     "BTTNotchBarNotchMenubarModeHideLeftFixed" : true,
     "BTTMovePastedToTop" : true,
     "BTTMaxAllowedDrawingRotation" : 30,
-    "BTTDidRegisterForUpdateStats" : "4.186",
+    "BTTDidRegisterForUpdateStats" : "5.095",
     "BTTNotchBarNotchWidgetModeHideRightFixed" : false,
     "BTTStageManagerLeaveGap" : true,
     "BTTStageManagerLeftSnappingAreaIncreasePercentage" : 0.125,
     "BTTTpFourFingerSwipeSensitivity" : 0.40000000000000002,
     "BSTMoveTreshold" : 2,
     "BTTHideFomControlStripWhenOpen" : false,
-    "BTTNumberOfStarts" : 9317,
+    "BTTNumberOfStarts" : 1647,
     "BTTForceNormalClickPressure3F" : 150,
     "showSiriRemoteTab" : true,
     "SIRIScrollSpeed" : 1,
     "BTTShowControlStrip" : true,
-    "SHOWEDHIDEMENUBARWARNING" : true,
     "tpThreeFingerDoubleTapDelay" : 0.5,
     "showNormalMiceTab" : true,
     "BTTNotchBarStandardMenubarModeHideLeftScrollable" : true,
@@ -71,14 +71,14 @@
     "BTTTouchBarVisible" : false,
     "BTTIMGURDefault" : true,
     "BTTNotchBarShowOnStandardScreens" : true,
-    "BSTSnapAreaDefaultBackgroundColor" : "129.988836, 201.126536, 227.013985, 104.550000",
+    "BSTSnapAreaDefaultBackgroundColor" : "129.991390, 201.122858, 227.012328, 104.550000",
     "BSTSnapAreaDefaultPictoSize" : 0.69999998807907104,
     "BSTSnapAreaDefaultBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
     "BTTNotchBarNotchMenubarModeHideLeftScrollable" : true,
     "BTTNotchBarNotchMenubarModeShowOriginalStatusIcons" : true,
     "BSTTopMissionControlTreshold" : 34,
     "BTTNotchBarNotchWidgetModeHideRightScrollable" : false,
-    "BSTSnapAreaDefaultHighlightColor" : "92.624286, 122.650411, 161.665578, 56.100000",
+    "BSTSnapAreaDefaultHighlightColor" : "92.625547, 122.647995, 161.664332, 56.100000",
     "BTTStageManagerLeftGapPercentage" : 0.10000000000000001,
     "BTTForceForceClickPressure5F" : 600,
     "BTTForceForceClickPressure" : 700,
@@ -102,7 +102,7 @@
     "BTTEnableUsageLogging" : true,
     "snapBottomLeft" : true,
     "BTTScreenshotOpenImgurInBrowser" : true,
-    "BTTDontRestartAfterSleep" : true,
+    "BTTDontRestartAfterSleep" : false,
     "BTTForceNormalClickPressure2F" : 140,
     "BSTSnapAreaDefaultInvisible" : false,
     "BTTDrawingAreaHeight" : 626,
@@ -116,7 +116,6 @@
     "BTTNotchBarNotchWidgetModeShowOriginalStatusIcons" : false,
     "BTTAlwaysShowPresetIndicators" : true,
     "BTTStageManagerIncreaseEvenIfHiding" : true,
-    "BTTForcedHidden" : false,
     "showTouchBarTab" : true,
     "BTTFreeSpaceAfterBTT" : 20,
     "BTTNotchBarStandardWidgetModeHideRightFixed" : false,
@@ -142,6 +141,7 @@
     "BTTCopyImgurURLToClipboard" : true,
     "BTTForceNormalHapticResponse" : 12,
     "BTTTouchBarSupportEnabled" : true,
+    "BTRMessageChangeScrollDirection" : 0,
     "BTTDaysToKeepHistory" : 14,
     "BTTNotchBarNotchMenubarModeHideRightFixed" : true,
     "BTTDefaultTBIconHeight" : 22,
@@ -154,6 +154,7 @@
     "BSTSnapAreaDefaultAnimationDuration" : 0.30000001192092896,
     "BTTNotchBarStandardWidgetModeHideRightScrollable" : false,
     "BTTNotchBarStandardMenubarModeHideRightScrollable" : false,
+    "BTTNoShortcutDelay" : true,
     "pluginDictionary" : {
       "1" : {
         "Apple Remote Plugin" : {
@@ -175,32 +176,8 @@
       }
     },
     "showOtherTriggersTab" : true,
-    "BTTNotchBarNotchMenubarModeHideRightScrollable" : true,
-    "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612
+    "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612,
+    "BTTNotchBarNotchMenubarModeHideRightScrollable" : true
   },
-  "BTTPresetUUID" : "CD9E70CF-036C-44E2-8825-B89A87473492",
-  "BTTPresetContent" : [
-    {
-      "BTTAppBundleIdentifier" : "BT.G",
-      "BTTAppName" : "Global",
-      "BTTAppAutoInvertIcon" : 1,
-      "BTTAppSpecificSettings" : {
-        "BTTDisableGlobalTriggers" : false
-      },
-      "BTTTriggers" : [
-
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
-      "BTTAppAutoInvertIcon" : 1,
-      "BTTTriggers" : [
-
-      ]
-    }
-  ],
-  "BTTPresetSnapAreas" : [
-
-  ]
+  "BTTPresetUUID" : "58DD9F23-F4ED-4C6D-BDB5-5CE711754C3A"
 }

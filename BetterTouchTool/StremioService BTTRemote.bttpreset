@@ -1,0 +1,53 @@
+{
+  "BTTPresetCreatorNotes" : "",
+  "BTTPresetInfoURL" : "",
+  "BTTPresetName" : "StremioService BTTRemote",
+  "BTTPresetColor" : "0.000000, 83.772828, 146.595663, 255.000000",
+  "BTTPresetUUID" : "4D427A49-D9EA-4471-BC51-11D8D5A3A4A5",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.stremio.service",
+      "BTTAppName" : "Stremio Service",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Stremio Service",
+      "BTTTriggers" : [
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1737790696.022346,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTUUID" : "AB3518CF-D1E0-48EE-84EA-37CE1808AA03",
+          "BTTPredefinedActionType" : 366,
+          "BTTPredefinedActionName" : "Empty Placeholder",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 0,
+          "BTTAdditionalActions" : [
+            {
+              "BTTActionCategory" : 0,
+              "BTTLastUpdatedAt" : 1737790696.022279,
+              "BTTTriggerParentUUID" : "AB3518CF-D1E0-48EE-84EA-37CE1808AA03",
+              "BTTIsPureAction" : true,
+              "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+              "BTTUUID" : "A4AD962D-1101-4098-9C7A-877E00B09B3E",
+              "BTTPredefinedActionType" : 172,
+              "BTTPredefinedActionName" : "Run Apple Script (blocking)",
+              "BTTAdditionalActionData" : {
+                "BTTScriptType" : 0,
+                "BTTAppleScriptUsePath" : false,
+                "BTTScriptLocation" : 0,
+                "BTTAppleScriptRunInBackground" : false,
+                "BTTAppleScriptString" : "tell application \"Stremio Web\"\r\tactivate\rend tell"
+              },
+              "BTTInlineAppleScript" : "tell application \"Stremio Web\"\r\tactivate\rend tell",
+              "BTTEnabled" : 1,
+              "BTTEnabled2" : 1,
+              "BTTOrder" : 0
+            }
+          ],
+          "BTTRemoteTriggerName" : "Launch Stremio Web"
+        }
+      ]
+    }
+  ]
+}

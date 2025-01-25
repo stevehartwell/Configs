@@ -1,0 +1,63 @@
+{
+  "BTTPresetCreatorNotes" : "",
+  "BTTPresetInfoURL" : "",
+  "BTTPresetName" : "All Apps Misc",
+  "BTTPresetColor" : "71.267400, 207.304290, 209.610000, 255.000000",
+  "BTTPresetUUID" : "957E4592-0003-4078-AE49-8225D309EA54",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1719203288.4960909,
+          "BTTTriggerType" : 613,
+          "BTTTriggerTypeDescription" : "Doubleclick Main Menubar",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTUUID" : "DA9292FA-E051-47D2-B047-C88863418683",
+          "BTTPredefinedActionType" : 249,
+          "BTTPredefinedActionName" : "Show Floating WebView or HTML Menu",
+          "BTTActionURLToLoad" : "https:\/\/docs.google.com\/spreadsheets\/d\/1K4HoWjuXU4dg03Qlsjhzg7--BzSIXtmooLuTLbwCTGs\/edit?usp=sharing",
+          "BTTActionFloatingHTMLName" : "Floating Browser",
+          "BTTActionFloatingHTMLConfig" : "{\"BTTWebviewClickThrough\":false,\"BTTWebViewKeepVisibleAndRefreshINT\":1,\"BTTWebviewDragEverywhereCMD\":false,\"BTTWebviewResizable\":true,\"BTTWebviewDragEverywhere\":false,\"BTTWebViewManualWindowLevel\":0,\"BTTDrawTitleBezel\":false,\"BTTShowAboveDesktop\":0,\"BTTDoNotCache\":false,\"BTTWebViewPreload\":false,\"BTTWebViewShowDockIcon\":1,\"BTTCloseOnBrowserOpen\":false,\"BTTCenterOnOpen\":false,\"BTTTitlebarStyle\":1,\"BTTSize\":\"{1047, 571}\",\"BTTSystemBrowserURLPrefix\":\"\",\"BTTRelativeTo\":0,\"BTTUseFixedPosition\":false,\"BTTShowButtons\":false,\"BTTFrameOrigin\":\"{564, 484}\",\"BTTWebviewUpdateFrame\":true,\"BTTCloseOnOutsideClick\":false,\"BTTUseWhiteBackground\":true}",
+          "BTTRepeatDelay" : 2.996143102645874,
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 42,
+          "BTTGestureNotes" : "Doubleclick Main Menubar",
+          "BTTTriggerConfig" : {
+            "BTTHUDText" : "Floating Browser",
+            "BTTShowHUD" : 1
+          }
+        },
+        {
+          "BTTActionCategory" : 0,
+          "BTTLastUpdatedAt" : 1700879432.65048,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTUUID" : "D69BD21E-B731-45CA-A3A5-6A75251BBB69",
+          "BTTPredefinedActionType" : 249,
+          "BTTPredefinedActionName" : "Show Floating WebView or HTML Menu",
+          "BTTActionURLToLoad" : "\/Volumes\/Scooby_Doo\/Projects\/web widgets\/UnitPriceCalc\/UnitPriceCalc.webarchive",
+          "BTTActionFloatingHTMLName" : "UnitPriceCalc",
+          "BTTActionFloatingHTMLConfig" : "{\"BTTWebviewClickThrough\":false,\"BTTUseWhiteBackground\":true,\"BTTWebviewDragEverywhereCMD\":false,\"BTTWebviewResizable\":true,\"BTTWebviewDragEverywhere\":true,\"BTTWebViewManualWindowLevel\":3,\"BTTDrawTitleBezel\":false,\"BTTShowAboveDesktop\":2,\"BTTDoNotCache\":false,\"BTTWebViewPreload\":false,\"BTTWebViewShowDockIcon\":0,\"BTTCloseOnBrowserOpen\":false,\"BTTCenterOnOpen\":false,\"BTTTitlebarStyle\":3,\"BTTSize\":\"{320, 696}\",\"BTTRelativeTo\":0,\"BTTUseFixedPosition\":false,\"BTTShowButtons\":false,\"BTTWebViewKeepVisibleAndRefreshINT\":1,\"BTTFrameOrigin\":\"{992, 103}\",\"BTTWebviewUpdateFrame\":true,\"BTTCloseOnOutsideClick\":false}",
+          "BTTAdditionalConfiguration" : "1835049",
+          "BTTKeyboardShortcutKeyboardType" : 3650,
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "k",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 40,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 40,
+          "BTTAutoAdaptToKeyboardLayout" : 0
+        }
+      ]
+    }
+  ]
+}
