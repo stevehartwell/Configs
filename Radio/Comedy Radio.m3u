@@ -1,0 +1,30 @@
+#EXTM3U
+#EXTENC:UTF-8
+#EXTGENRE:Comedy
+
+#EXTINF:-1 tvg-logo="https://static.wixstatic.com/media/1b8ace_fbee35004c8c42f0904f0b3c7aaf9efe~mv2_d_1597_1421_s_2.png",Grumpy Dingo Radio
+https://ice24.securenetsystems.net/GDR
+
+#EXTINF:-1,Major FM Comedy Radio
+https://stream-54.zeno.fm/gp5hv09vrnhvv
+
+#EXTINF:-1,977 Comedy Radio
+https://playerservices.streamtheworld.com/api/livestream-redirect/977_COMEDY_SC?dist=onlineradiobox
+
+#EXTINF:-1 logo="http://radio.pervii.com/logo/4855.jpg",181.fm Comedy Radio
+http://listen.181fm.com/181-comedy_128k.mp3
+
+#EXTINF:-1,Cleansing Comedy Radio
+http://streaming.live365.com/a64200
+
+#EXTINF:-1,Comedy104 Radio
+http://das-edge27-sa23-lax02.cdnstream.com:80/1073_64
+
+#EXTINF:-1 tvg-logo="http://radio.pervii.com/logo/15838.jpg",RadioStorm Comedy
+http://streaming.live365.com/b42761_64mp3
+
+#EXTINF:-1,Discworld (UK) Vintage Comedy Radio
+http://odinlistening.ddns.net:8000/discworld
+
+#EXTINF:-1 tvg-logo="http://radio.pervii.com/im/9/1586775309.jpg",1Radio.mk Comedy
+http://ais-edge66-ams02.cdnstream.com:80/1radio_comedy_64

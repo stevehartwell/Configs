@@ -12,9 +12,9 @@
 
 @import url('../userLib/chrome/tab-close-left.css');
 
-/* @import url('../userLib/firefox-csshacks/chrome/autohide_bookmarks_and_main_toolbars.css'); */
-@import url('../userLib/firefox-csshacks/chrome/autohide_main_toolbar.css');
-/* autoshow address bar when hover over tab bar */
+
+@import url('../userLib/firefox-csshacks/chrome/autohide_bookmarks_and_main_toolbars.css');
+/**/
 
 /*
     <toolbox id="navigator-toolbox">
@@ -26,23 +26,14 @@
       <toolbar id="PersonalToolbar" class="browser-toolbar">
  */
 
-/* Undo some firefoxpwa css */
-#nav-bar:not(.shown) > :not(#customizationui-widget-panel) {
-  display: flex !important;
-}
-
- /* hide non-removable X-style close window toolbar button */
-#close-page-button { display: none !important; }
-
-
 .tabbrowser-tab {
     font-size: 13px !important;
 }
-
 .tabbrowser-tab[pinned] {
-    border-width: 4px !important;
-    /* min-width: var(--tab-min-width); */
+    border: 4px !important;
+    min-width: calc(var(--tab-min-width) / 2);
 }
+/**/
 
 /*
  * debugging

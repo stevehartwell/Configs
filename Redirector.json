@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2024-07-13T23:55:04.195Z",
+    "createdAt": "2025-01-16T23:37:13.710Z",
     "redirects": [
         {
             "description": "Photon Reddit",
@@ -28,23 +28,6 @@
             "excludePattern": "",
             "patternDesc": "&url=https%3A%2F%2F",
             "redirectUrl": "$3",
-            "patternType": "W",
-            "processMatches": "urlDecode",
-            "disabled": false,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "Skip mozgcp.net redirects",
-            "exampleUrl": "https://...mozgcp.net/.../https%3A//example.com/path%3fid%3d123",
-            "exampleResult": "https://example.com/path?id=123",
-            "error": null,
-            "includePattern": "http*://*/https%3A//*",
-            "excludePattern": "",
-            "patternDesc": "",
-            "redirectUrl": "https://$3",
             "patternType": "W",
             "processMatches": "urlDecode",
             "disabled": false,
@@ -105,13 +88,13 @@
             ]
         },
         {
-            "description": "google redirect url",
-            "exampleUrl": "https://www.google.com/url?...&url=https://www.example.co.uk/path/file.html&...",
-            "exampleResult": "https://www.example.co.uk/path/file.html",
+            "description": "goto.walmart.com redirect",
+            "exampleUrl": "https://goto.walmart.com/...&u=https%3A%2F%2Fwww.walmart.com%2FURLEncoded/path&...",
+            "exampleResult": "https://www.walmart.com/URLEncoded/path",
             "error": null,
-            "includePattern": "https://www.google.com/url?*&url=*&*",
+            "includePattern": "https://goto.walmart.com/*&u=*&*",
             "excludePattern": "",
-            "patternDesc": "url=URLDecode(...)",
+            "patternDesc": "",
             "redirectUrl": "$2",
             "patternType": "W",
             "processMatches": "urlDecode",
@@ -122,13 +105,30 @@
             ]
         },
         {
-            "description": "goto.walmart.com redirect",
-            "exampleUrl": "https://goto.walmart.com/...&u=https%3A%2F%2Fwww.walmart.com%2FURLEncoded/path&...",
-            "exampleResult": "https://www.walmart.com/URLEncoded/path",
+            "description": "Skip mozgcp.net redirects",
+            "exampleUrl": "https://...mozgcp.net/.../https%3A//example.com/path%3fid%3d123",
+            "exampleResult": "https://example.com/path?id=123",
             "error": null,
-            "includePattern": "https://goto.walmart.com/*&u=*&*",
+            "includePattern": "http*://*/https%3A//*",
             "excludePattern": "",
             "patternDesc": "",
+            "redirectUrl": "https://$3",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "google redirect url",
+            "exampleUrl": "https://www.google.com/url?...&url=https://www.example.co.uk/path/file.html&...",
+            "exampleResult": "https://www.example.co.uk/path/file.html",
+            "error": null,
+            "includePattern": "https://www.google.com/url?*&url=*&*",
+            "excludePattern": "",
+            "patternDesc": "url=URLDecode(...)",
             "redirectUrl": "$2",
             "patternType": "W",
             "processMatches": "urlDecode",
@@ -166,6 +166,23 @@
             "redirectUrl": "$2",
             "patternType": "W",
             "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "anrdoezrs.net",
+            "exampleUrl": "https://www.anrdoezrs.net/links/3586864/type/dlg/sid/subid_value/https://morningsave.com/deals/presto-dorothy-rapid-cold-brewer-79",
+            "exampleResult": "https://morningsave.com/deals/presto-dorothy-rapid-cold-brewer-79",
+            "error": null,
+            "includePattern": "*://www.anrdoezrs.net/links/*/http*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "http$3",
+            "patternType": "W",
+            "processMatches": "noProcessing",
             "disabled": false,
             "grouped": false,
             "appliesTo": [

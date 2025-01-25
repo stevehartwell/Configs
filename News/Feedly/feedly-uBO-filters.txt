@@ -21,6 +21,9 @@ feedly.com#$##feedlyPageFX { max-width: revert !important; }
 
 ! Hide from Any Feed article --------------------------------------------------!
 
+! Politics
+feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Elon|Musk|Trump|Vance)\b/))
+
 ! Gaming
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(Activision|Nintendo|Playstation|PS\d|Super Mario|Wii|Xbox)/))
 feedly.com##article:has(a.EntryTitleLink:has-text(/\b(adventure|arcade|console|horror|mobile|multiplayer|Netflix|PC|Squid|Steam|video) game/i))

@@ -10,7 +10,6 @@
     "terminal.foreground": "#00FF00"
   },
   "security.workspace.trust.enabled": false,
-  "extensions.autoUpdate": false,
   "files.associations": {
     "*.jsm": "javascript",
     "*.bttpreset": "json"
@@ -89,11 +88,8 @@
   },
   "diffEditor.maxComputationTime": 0,
   "diffEditor.ignoreTrimWhitespace": false,
-  "pandoc.render.openViewer": false,
   "window.customTitleBarVisibility": "never",
   "diffEditor.renderSideBySide": true,
-  "diffEditor.hideUnchangedRegions.enabled": true,
-  "workbench.editor.enablePreview": false,
   "diffEditor.experimental.useTrueInlineView": true,
   "diffEditor.useInlineViewWhenSpaceIsLimited": false,
   "files.exclude": {
@@ -103,5 +99,42 @@
     "**/CVS": false,
     "**/Icon?": true
   },
-  "lldb.suppressUpdateNotifications": true
+  "lldb.suppressUpdateNotifications": true,
+  "workbench.startupEditor": "none",
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "markdown-preview-enhanced.breakOnSingleNewLine": false,
+  "markdown-preview-enhanced.enableEmojiSyntax": false,
+  "markdown-preview-enhanced.enableHTML5Embed": true,
+  "markdown-preview-enhanced.enablePreviewZenMode": false,
+  "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+  "markdown.validate.unusedLinkDefinitions.enabled": "warning",
+  "markdown.occurrencesHighlight.enabled": true,
+  "markdown.preview.lineHeight": 1.2,
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "markdown.validate.enabled": true,
+  "markdown.math.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "markdown.extensibleMarkdown.options.additionalPlugins": {
+    "absolutePath": "",
+    "relativePath": "",
+    "plugins": [
+      {
+        "name": "",
+        "enable": false,
+        "options": {},
+        "syntacticDecorators": [
+          {
+            "enable": false,
+            "regexString": "",
+            "tooltipFormat": "%s",
+            "style": {}
+          }
+        ]
+      }
+    ]
+  }
 }

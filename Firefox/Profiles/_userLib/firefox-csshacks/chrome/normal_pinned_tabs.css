@@ -19,25 +19,10 @@ See the above repository for updates as well as full license text. */
 .tab-label-container[textoverflow]{
   mask-image: linear-gradient(to left, transparent, black var(--tab-label-mask-size));
 }
-/*
 .tabbrowser-tab[pinned] > .tab-stack{ border: none !important; }
-*/
 .tabbrowser-tab[pinned]::after{ position: static !important; margin-block: 0px 1px !important; }
 
-.tabbrowser-tab[pinned]::after {
-  position: static !important;
-  margin-block: 0px 1px !important;
-}
-
 .tabbrowser-tab[selected]{ position: relative !important; }
-.tab-content[pinned] {
-    background-color: red !important;
-}
-@media (prefers-color-scheme: dark) {
-.tab-content[pinned] {
-    background-color: orange !important;
-  }
-}
 
 .tab-label-container{ width: unset !important; }
 .tab-label-container[pinned]{ margin-inline-start: 8px }
@@ -46,13 +31,7 @@ See the above repository for updates as well as full license text. */
 
 .tab-icon-overlay{ display: none !important; }
 
-/*
 #tabbrowser-tabs[closebuttons="activetab"] > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-content > .tab-close-button:not([selected]){ display: none !important; }
-*/
 
 /* Comment out or remove this if you want pinned tabs to never have close-button */
 .tab-close-button{ display: flex !important; }
-
-/* .tab-close-button[pinned] {
-  border: dashed !important;
-} */
