@@ -24,13 +24,13 @@ photon-reddit.com##ph-post:has(div.title:has-text(/\b( \
     elon|musk|trump|vance \
     |CEO shooter|luigi|mangione \
     |chat-?gpt \
-    )\b/i))
+    )\b/i)):remove()
 
 ! Post subreddit filters, regexes
 !
 
 !! subreddits beginning with ___
-photon-reddit.com##ph-post:has(> a:matches-attr(href=/^\/r\/Ask/i))
+photon-reddit.com##ph-post:has(> a:matches-attr(href=/^\/r\/Ask/i)):remove()
 
 !! subreddits with ___ anywhere
 photon-reddit.com##ph-post:has(> a:matches-attr(href=/^\/r\/[^/]*( \
@@ -38,7 +38,7 @@ photon-reddit.com##ph-post:has(> a:matches-attr(href=/^\/r\/[^/]*( \
     |animals|bird|cats|dogs|kitt|pupp \
     |advice|circlejerk|dank|imaginary|interesting|memes|porn|shit|smile \
     |battle|india|tattoo \
-    )[^/]*\//i))
+    )[^/]*\//i)):remove()
 
 !-------------------------------------------------------------------------------
 ! posts from banned users
@@ -58,7 +58,7 @@ photon-reddit.com##ph-post:has(.header a.user:matches-attr(href=/^\/user\/( \
     |PM_ME_YOUR_BOOGER \
     |TheLuciusGraham \
     |well-ok-I-am-in \
-    )$/))
+    )$/)):remove()
 
 !! posts from subreddits matching ____ exactly (case-sensitive)
 !
