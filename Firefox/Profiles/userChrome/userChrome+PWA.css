@@ -1,0 +1,7 @@
+/*
+ */
+
+/* hide non-removable X-style close window toolbar button */
+#close-page-button {
+    display: none !important;
+}

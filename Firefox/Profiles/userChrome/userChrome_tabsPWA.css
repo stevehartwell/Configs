@@ -1,0 +1,14 @@
+/*
+ * This CSS file will be loaded by Firefox if it is located at:
+ *  [user-profile]/chrome/userChrome.css
+ * AND this config is set in either about:config or [user-profile]/user.js
+ *  user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+ */
+
+/* NOTE: @imports must come before @namespace or any css */
+
+@import url('userChrome_basePWA.css');
+/* findbar and sidebar */
+
+@import url('userChrome+tabs.css');
+/* css having to do with tabs */

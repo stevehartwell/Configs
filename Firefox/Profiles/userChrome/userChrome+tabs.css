@@ -1,19 +1,12 @@
-/*
- * This CSS file will be loaded by Firefox if it is located at:
- *  [user-profile]/chrome/userChrome.css
- * AND this config is set in either about:config or [user-profile]/user.js
- *  user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+/* userChrome+tabs.css
+ *
  */
 
 /* NOTE: @imports must come before @namespace or any css */
 
-@import url('../userLib/chrome/userChrome_base.css');
-/* findbar and sidebar */
+@import url('shh-csshacks/tab-close-left.css');
+@import url('firefox-csshacks/chrome/autohide_bookmarks_and_main_toolbars.css');
 
-@import url('../userLib/chrome/tab-close-left.css');
-
-
-@import url('../userLib/firefox-csshacks/chrome/autohide_bookmarks_and_main_toolbars.css');
 /**/
 
 /*
@@ -25,18 +18,20 @@
       <toolbar id="nav-bar" class="browser-toolbar ...">
       <toolbar id="PersonalToolbar" class="browser-toolbar">
  */
-
 .tabbrowser-tab {
     font-size: 13px !important;
+    max-width: max-content !important;
 }
 .tabbrowser-tab[pinned] {
     border: 4px !important;
-    min-width: calc(var(--tab-min-width) / 2);
+    min-width: calc(var(--tab-min-width) / 2) !important;
 }
 /**/
 
 /*
  * debugging
+ */
+/*
 #titlebar:hover ~ .browser-toolbar {
     background-color: green !important;
 }
@@ -50,4 +45,4 @@
 #PersonalToolbar {
     background-color: red !important;
 }
-*/
+/**/

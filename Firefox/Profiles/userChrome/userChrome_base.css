@@ -1,0 +1,23 @@
+/*
+ * This CSS file will be loaded by Firefox if it is located at:
+ *  [user-profile]/chrome/userChrome.css
+ * AND this config is set in either about:config or [user-profile]/user.js
+ *  user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+ */
+ 
+ /* NOTE: @imports must come before @namespace or any css */
+
+@import 'shh-csshacks/topFindBar.css';
+/* Move Find Bar above the page */
+
+
+/* Doesn't work on macOS:
+#profiles-menu { display: none !important; }
+*/
+
+/*
+.titlebar-spacer {
+    background-color: orchid;
+    max-width: 10px !important;
+}
+*/

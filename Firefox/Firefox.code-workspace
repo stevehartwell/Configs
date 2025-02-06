@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "/Save/Firefox",
+			"path": "/Volumes/Save/Users/sh/Library/Application Support/Firefox"
+		},
+		{
+			"name": "/Save/firefoxpwa",
+			"path": "/Volumes/Save/Users/sh/Library/Application Support/firefoxpwa"
+		},
+		{
+			"name": "/NAS/Configs/Firefox",
+			"path": "."
+		}
+	]
+}
