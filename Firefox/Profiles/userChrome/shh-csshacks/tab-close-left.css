@@ -2,6 +2,16 @@
  *
  */
 
+/*
+ * SHH: consider improving the vertical & not(expanded) ui
+ *
+ #tabbrowser-tabs[orient="vertical"]:not([expanded])
+    .tabbrowser-tab[selected]:not([pinned]):hover
+{
+    // maybe animate the width of just the tab on hover?
+}
+/**/
+
 .tab-content {
     display: grid !important;
     grid-template-columns: minmax(24px, auto) 1fr;

@@ -1,16 +1,16 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2025-01-16T23:37:13.710Z",
+    "createdAt": "2025-01-28T09:31:07.197Z",
     "redirects": [
         {
             "description": "Photon Reddit",
             "exampleUrl": "http://www.reddit.com/r/somesub/comments/xyzzy/title_of_comment",
-            "exampleResult": "https://photon-reddit.com/r/somesub/comments/xyzzy",
+            "exampleResult": "https://photon-reddit.com/r/somesub/comments/xyzzy/title_of_comment",
             "error": null,
-            "includePattern": "https?://(www\\.)?reddit\\.com((/[^/]*){0,4})",
+            "includePattern": "https?://(?:www\\.)?reddit\\.com(/?$|/r(?:/[^/]+){1,4})",
             "excludePattern": "",
             "patternDesc": "Photon Reddit",
-            "redirectUrl": "https://photon-reddit.com$2",
+            "redirectUrl": "https://photon-reddit.com$1",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -28,6 +28,23 @@
             "excludePattern": "",
             "patternDesc": "&url=https%3A%2F%2F",
             "redirectUrl": "$3",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Skip mozgcp.net redirects",
+            "exampleUrl": "https://...mozgcp.net/.../https%3A//example.com/path%3fid%3d123",
+            "exampleResult": "https://example.com/path?id=123",
+            "error": null,
+            "includePattern": "http*://*/https%3A//*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://$3",
             "patternType": "W",
             "processMatches": "urlDecode",
             "disabled": false,
@@ -88,13 +105,13 @@
             ]
         },
         {
-            "description": "goto.walmart.com redirect",
-            "exampleUrl": "https://goto.walmart.com/...&u=https%3A%2F%2Fwww.walmart.com%2FURLEncoded/path&...",
-            "exampleResult": "https://www.walmart.com/URLEncoded/path",
+            "description": "google redirect url",
+            "exampleUrl": "https://www.google.com/url?...&url=https://www.example.co.uk/path/file.html&...",
+            "exampleResult": "https://www.example.co.uk/path/file.html",
             "error": null,
-            "includePattern": "https://goto.walmart.com/*&u=*&*",
+            "includePattern": "https://www.google.com/url?*&url=*&*",
             "excludePattern": "",
-            "patternDesc": "",
+            "patternDesc": "url=URLDecode(...)",
             "redirectUrl": "$2",
             "patternType": "W",
             "processMatches": "urlDecode",
@@ -105,30 +122,13 @@
             ]
         },
         {
-            "description": "Skip mozgcp.net redirects",
-            "exampleUrl": "https://...mozgcp.net/.../https%3A//example.com/path%3fid%3d123",
-            "exampleResult": "https://example.com/path?id=123",
+            "description": "goto.walmart.com redirect",
+            "exampleUrl": "https://goto.walmart.com/...&u=https%3A%2F%2Fwww.walmart.com%2FURLEncoded/path&...",
+            "exampleResult": "https://www.walmart.com/URLEncoded/path",
             "error": null,
-            "includePattern": "http*://*/https%3A//*",
+            "includePattern": "https://goto.walmart.com/*&u=*&*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://$3",
-            "patternType": "W",
-            "processMatches": "urlDecode",
-            "disabled": false,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "google redirect url",
-            "exampleUrl": "https://www.google.com/url?...&url=https://www.example.co.uk/path/file.html&...",
-            "exampleResult": "https://www.example.co.uk/path/file.html",
-            "error": null,
-            "includePattern": "https://www.google.com/url?*&url=*&*",
-            "excludePattern": "",
-            "patternDesc": "url=URLDecode(...)",
             "redirectUrl": "$2",
             "patternType": "W",
             "processMatches": "urlDecode",
@@ -166,23 +166,6 @@
             "redirectUrl": "$2",
             "patternType": "W",
             "processMatches": "urlDecode",
-            "disabled": false,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "anrdoezrs.net",
-            "exampleUrl": "https://www.anrdoezrs.net/links/3586864/type/dlg/sid/subid_value/https://morningsave.com/deals/presto-dorothy-rapid-cold-brewer-79",
-            "exampleResult": "https://morningsave.com/deals/presto-dorothy-rapid-cold-brewer-79",
-            "error": null,
-            "includePattern": "*://www.anrdoezrs.net/links/*/http*",
-            "excludePattern": "",
-            "patternDesc": "",
-            "redirectUrl": "http$3",
-            "patternType": "W",
-            "processMatches": "noProcessing",
             "disabled": false,
             "grouped": false,
             "appliesTo": [

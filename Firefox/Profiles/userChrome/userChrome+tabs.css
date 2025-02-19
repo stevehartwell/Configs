@@ -5,8 +5,10 @@
 /* NOTE: @imports must come before @namespace or any css */
 
 @import url('shh-csshacks/tab-close-left.css');
+/*
+ * SHH disabled until fixes for vertical tabs
+ *
 @import url('firefox-csshacks/chrome/autohide_bookmarks_and_main_toolbars.css');
-
 /**/
 
 /*
@@ -20,7 +22,7 @@
  */
 .tabbrowser-tab {
     font-size: 13px !important;
-    max-width: max-content !important;
+    /* SHH not for vertical tabs: max-width: max-content !important; */
 }
 .tabbrowser-tab[pinned] {
     border: 4px !important;
