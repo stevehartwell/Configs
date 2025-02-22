@@ -1,0 +1,5 @@
+
+function brew-upgrade() {
+    caffeinate brew upgrade --formula "${@}" \
+    && caffeinate brew cu -a -f --no-quarantine
+}

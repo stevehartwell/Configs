@@ -1,5 +1,6 @@
 {
     "chat.commandCenter.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
     "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.minimap.enabled": false,
@@ -7,11 +8,14 @@
     "editor.rulers": [
         80
     ],
+    "explorer.autoReveal": false,
+    "explorer.fileNesting.enabled": true,
     "explorer.sortOrder": "mixed",
-    "explorer.sortOrderLexicographicOptions": "unicode",
     "files.associations": {
         "*.bttpreset": "json",
-        "*.jsm": "javascript"
+        "*.jsm": "javascript",
+        "*.strings": "plist",
+        "*.textClipping": "plist"
     },
     "files.exclude": {
         "**/.git": false
@@ -22,8 +26,20 @@
     "markdown.updateLinksOnFileMove.enabled": "prompt",
     "markdown.validate.enabled": true,
     "markdown.validate.unusedLinkDefinitions.enabled": "warning",
+    "outline.collapseItems": "alwaysCollapse",
     "prettier.singleQuote": true,
+    "pylint.enabled": false,
+    "pylint.lintOnChange": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.languageServer": "None",
+    "python.terminal.shellIntegration.enabled": true,
     "search.followSymlinks": false,
+    "security.workspace.trust.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "telemetry.telemetryLevel": "off",
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -36,8 +52,10 @@
         "terminal.foreground": "#00FF00"
     },
     "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.editor.enablePreview": false,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.preferredDarkColorTheme": "Visual Studio Dark",
     "workbench.preferredLightColorTheme": "Visual Studio Light",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "zig.zls.enabled": "on"
 }

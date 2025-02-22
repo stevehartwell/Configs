@@ -1,0 +1,4 @@
+
+function unquarantiner() {
+    xattr -rd com.apple.quarantine "${@}"
+}

@@ -1,0 +1,22 @@
+# .zprofile is basically the same as .zlogin except that it's sourced before
+# .zshrc while .zlogin is sourced instead of directly after it.
+# According to the zsh documentation, ".zprofile is meant as an alternative to
+# .zlogin for ksh fans; the two are not intended to be used together, although
+# this could certainly be done if desired."
+
+# SHH: I want /s?bin, /usr/s?bin and /usr/local/s?bin at the end of PATH,
+# because I need some directories that I insert in front to override them.
+# Not secure, but I will live with it.
+
+# load order: .zshenv < .zprofile < .zshrc < .zlogin < .zlogout
+
+front=(); back=()
+for dir in $path; do
+	if [[ "$dir" =~ '^/(usr/(local/)?)?(s?bin)$' ]]; then
+		back+=($dir)
+	else
+		front+=($dir)
+	fi
+done
+path=($front $back)
+unset front back

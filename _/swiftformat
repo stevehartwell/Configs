@@ -1,0 +1,28 @@
+
+--elseposition next-line
+--guardelse auto
+--ifdef outdent
+--self init-only
+
+# --disable wrapArguments
+--wrapparameters after-first
+--wrapcollections before-first
+--closingparen same-line
+
+--enable preferKeyPath
+--enable redundantFileprivate
+--enable redundantExtensionACL
+--enable redundantInit
+--enable redundantLet,redundantLetError
+--enable redundantNilInit
+--enable spaceAroundOperators
+--enable void
+--enable wrapMultilineStatementBraces
+
+--disable braces
+--disable blankLinesAtStartOfScope
+--disable blankLinesBetweenScopes
+--disable consecutiveBlankLines
+--disable emptyBraces
+--disable indent
+

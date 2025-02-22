@@ -1,0 +1,4 @@
+
+shell echo ~/.lldbinit loaded; pwd
+
+command script import /Volumes/Save/Users/sh/_/lldbinit.py

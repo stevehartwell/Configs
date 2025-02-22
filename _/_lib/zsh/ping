@@ -1,0 +1,10 @@
+
+function ping() {
+    result=$1
+    if [ "$result" != 0 ]; then
+        sound=/System/Library/Sounds/Basso.aiff
+    else
+        sound=/System/Library/Sounds/Ping.aiff
+    fi
+    afplay "$sound" -v 4
+}

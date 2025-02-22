@@ -1,0 +1,36 @@
+[user]
+	name = Steve Hartwell
+	email = steve.hartwell@gmail.com
+
+[core]
+	excludesfile = /Users/sh/.gitignore_global
+	quotepath = false
+	commitGraph = true
+
+[pull]
+	rebase = true
+
+[gc]
+	writeCommitGraph = true
+
+[commit]
+	template = ~/.stCommitMsg
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+[cinnabar]
+	helper = /Volumes/NoSave/Homebrew/Cellar/git-cinnabar/0.5.5/libexec/git-cinnabar-helper
+[receive]
+	advertisePushOptions = true

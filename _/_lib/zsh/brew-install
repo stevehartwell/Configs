@@ -1,0 +1,4 @@
+
+function brew-install() {
+    caffeinate brew install --no-quarantine
+}

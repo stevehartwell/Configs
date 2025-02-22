@@ -1,0 +1,4 @@
+
+function manpage() {
+    man -t "$@"  | open -f -a Preview # thanks, Erica Sadun
+}
