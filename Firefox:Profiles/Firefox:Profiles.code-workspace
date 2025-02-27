@@ -1,8 +1,8 @@
 {
 	"folders": [
 		{
-			"name": "/Save/Firefox",
-			"path": "/Volumes/Save/Users/sh/Library/Application Support/Firefox"
+			"name": "/Save/Firefox/Profiles",
+			"path": "/Volumes/Save/Users/sh/Library/Application Support/Firefox:Profiles"
 		},
 		{
 			"name": "/Save/firefoxpwa",

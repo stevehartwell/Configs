@@ -7,8 +7,8 @@
 
 /* NOTE: @imports must come before @namespace or any css */
 
-@import url('userChrome_basePWA.css');
+@import url('userChrome/userChrome_basePWA.css');
 /* findbar and sidebar */
 
-@import url('userChrome+tabs.css');
+@import url('userChrome/userChrome+tabs.css');
 /* css having to do with tabs */
