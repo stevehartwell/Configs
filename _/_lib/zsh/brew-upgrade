@@ -1,5 +1,4 @@
+#!/usr/bin/env zsh
 
-function brew-upgrade() {
-    caffeinate brew upgrade --formula "${@}" \
-    && caffeinate brew cu -a -f --no-quarantine
-}
+caffeinate brew upgrade --formula "${@}" \
+&& caffeinate brew cu -a -f --no-quarantine

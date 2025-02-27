@@ -1,0 +1,18 @@
+#!/usr/bin/env zsh
+# this file is meant to be sourced, not run
+
+bindkey -v
+# Line editor is vi-like (not emacs)
+
+# Change cursor to vertical-bar (insert mode) block (vi cmd mode)
+# see https://github.com/jeffreytse/zsh-vi-mode?tab=readme-ov-file#-usage
+
+function zvm_config() {
+  ZVM_INSERT_MODE_CURSOR=$ZVM_CURSOR_BLINKING_BLOCK
+  ZVM_NORMAL_MODE_CURSOR=$ZVM_CURSOR_BLINKING_BEAM
+  VM_OPPEND_MODE_CURSOR=$ZVM_CURSOR_BLINKING_UNDERLINE
+  # ZVM_VI_HIGHLIGHT_FOREGROUND=green             # Color name
+  # ZVM_VI_HIGHLIGHT_BACKGROUND=#ff0000           # Hex value
+  # ZVM_VI_HIGHLIGHT_EXTRASTYLE=bold,underline    # bold and underline
+}
+source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh

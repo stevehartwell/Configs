@@ -1,3 +1,4 @@
 # Sourcetree uses this as a base for .gitignore in all repos
 
 .DS_Store
+__pycache__/

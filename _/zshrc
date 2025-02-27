@@ -6,14 +6,30 @@
 
 # load order: .zshenv < .zprofile < .zshrc < .zlogin < .zlogout
 
-PS1='%S%n@%m %1~ %#%s '
+# https://gist.github.com/ClementNerma/1dd94cb0f1884b9c20d1ba0037bdcde2
+# zsh Cheat Sheet
 
-fpath+=/Volumes/NoSave/NAS/_Configs@/_/_lib/zsh
+
+PS1='%S%n@%m %1~ %#%s '
+# inverse video prompt
+
+setopt extended_glob
+# more ways to get unexpected file expansions
+
+finder_home=/Volumes/Save/Users/sh
+# This is my "uncluttered" HOME, viewed by default in the Finder
+
+fpath+=~/_/_lib/zsh
+# Add my zsh "functions" (just scripts, really) to zsh functions path
 #
-autoload manpage lockfile unquarantiner
-autoload brew-install brew-upgrade
+autoload -Uz $fpath[-1]/*(.:t)
+### declare _lib/zsh/* files as functions # (.:t) => basename
 
 alias ls='ls -F'
+
+config_zvm
+# set the line editor to vi-like, and load ZVM plugin to switch mode cursors
+
 
 #SHH: NOTE: all PATH addenda are done in .zshenv
 

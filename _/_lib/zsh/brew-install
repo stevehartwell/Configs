@@ -1,4 +1,4 @@
 
 function brew-install() {
-    caffeinate brew install --no-quarantine
+    caffeinate brew install --no-quarantine "${@}"
 }

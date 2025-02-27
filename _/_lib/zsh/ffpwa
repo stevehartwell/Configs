@@ -1,14 +1,14 @@
-#
-    config='/Users/sh/Library/Application Support/firefoxpwa/config.json'
+#!/usr/bin/env sh
+
+config='/Users/sh/Library/Application Support/firefoxpwa/config.json'
 
 # jsonpath < $config \
 #    "\$.sites[*].[?(@.manifest.name =~ /${1}/i)].['ulid', 'manifest']" \
 #    /dev/stdin -p
 # exit 0
 
-    jq < $config "
-        .sites
-        | map(select(.manifest.name | contains(\"${1}\")))
-        | [ .[].ulid, .[].manifest.name ]
-    "
-    
+jq < $config "
+    .sites[] 
+    | select(.config.name | contains(\"${1}\"))
+    | [.ulid, .config.name ]
+"
