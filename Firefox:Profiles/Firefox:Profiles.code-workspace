@@ -1,16 +1,20 @@
 {
 	"folders": [
-		{
-			"name": "/Save/Firefox/Profiles",
-			"path": "/Volumes/Save/Users/sh/Library/Application Support/Firefox:Profiles"
-		},
-		{
-			"name": "/Save/firefoxpwa",
-			"path": "/Volumes/Save/Users/sh/Library/Application Support/firefoxpwa"
-		},
-		{
-			"name": "/NAS/Configs/Firefox",
-			"path": "."
-		}
-	]
+    {
+      "name": "/Save/Firefox/Profiles",
+      "path": "/Volumes/Save/Users/sh/Library/Application Support/Firefox:Profiles"
+    },
+    {
+      "name": "/Save/firefoxpwa",
+      "path": "/Volumes/Save/Users/sh/Library/Application Support/firefoxpwa"
+    },
+    {
+      "name": "/NAS/Configs/Firefox",
+      "path": "."
+    },
+    {
+      "name": "/NoSave/Firefox/Profiles",
+      "path": "/Volumes/NoSave/Users/sh/Library/Application Support/Firefox:Profiles"
+    }
+  ]
 }

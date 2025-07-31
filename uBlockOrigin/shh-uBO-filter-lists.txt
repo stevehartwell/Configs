@@ -1,0 +1,23 @@
+!
+! SHH Main filter list
+
+!
+! https://drive.google.com/uc?export=download&id=12981nPzjHGqIa6HcjhsUOlVyyLH-3wS2
+! https://stevehartwell.github.io/Configs/uBlockOrigin/shh-uBO-filter-lists.txt
+! (not pushed yet)
+
+! About uBO Filter List URLs:
+!
+!   Google Drive URLs are up-to-date, but bothersome to construct. The form is:
+!       https://drive.google.com/uc?export=download&id=XXXXXXXXXXXXXX
+!   where XXXXXXXXXXXXXX is the Google Drive file ID located by inspecting
+!   the URL on drive.google.com.
+!   Important: Make sure that the Sharing permissions are Anyone With The Link.
+!
+!   Github URLs may be out of date, but the links are more straightforward.
+!   When using github.io, the link is e.g.:
+!       https://stevehartwell.github.io/Configs/Search/Startpage/startpage-uBO-filters.txt
+!   Otherwise, raw.githubusercontent.com:
+!       https://raw.githubusercontent.com/stevehartwell/Configs/refs/heads/main/Search/Startpage/startpage-uBO-filters.txt
+
+

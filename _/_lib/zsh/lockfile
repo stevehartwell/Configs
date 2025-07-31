@@ -1,7 +1,0 @@
-
-function lockfile() {
-    flag="uchg"
-    [[ "$1" == "--off" ]] && { flag="nouchg"; shift; }
-    [[ "$1" == "-r" ]] && { opt="-R"; shift; }
-    echo chflags $opt $flag "${@}"
-}

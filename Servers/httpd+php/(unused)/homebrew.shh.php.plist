@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Label</key>
+		<string>homebrew.mxcl.php</string>
+		<key>LimitLoadToSessionType</key>
+		<array>
+			<string>Aqua</string>
+			<string>Background</string>
+			<string>LoginWindow</string>
+			<string>StandardIO</string>
+			<string>System</string>
+		</array>
+		<key>RunAtLoad</key>
+		<true/>
+		<key>KeepAlive</key>
+		<true/>
+		<key>WorkingDirectory</key>
+		<string>/Users/Shared/Servers/httpd+php</string>
+		<key>ProgramArguments</key>
+		<array>
+			<string>/usr/local/opt/php/sbin/php-fpm</string>
+			<string>--prefix</string>
+			<string>/Users/Shared/Servers/httpd+php</string>
+			<string>--nodaemonize</string>
+		</array>
+		<key>StandardErrorPath</key>
+		<string>/Users/Shared/Servers/httpd+php/log/php-fpm.log</string>
+	</dict>
+</plist>

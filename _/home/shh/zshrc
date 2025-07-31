@@ -1,0 +1,39 @@
+# .zshrc is for interactive shell configuration. You set options for the
+# interactive shell there with the setopt and unsetopt commands. You can also
+# load shell modules, set your history options, change your prompt, set up zle
+# and completion, et cetera. You also set any variables that are only used in
+# the interactive shell (e.g. $LS_COLORS).
+
+# load order: .zshenv < .zprofile < .zshrc < .zlogin < .zlogout
+
+# https://gist.github.com/ClementNerma/1dd94cb0f1884b9c20d1ba0037bdcde2
+# zsh Cheat Sheet
+
+source /Users/Shared/Configs@/_/etc/zshrc
+
+finder_home=/Volumes/Save/Users/shh
+# This is my "uncluttered" HOME, viewed by default in the Finder
+
+#SHH: NOTE: all PATH addenda are done in .zshenv
+
+# Node Version Manager -- terminal session only, not exposed to zshenv
+#
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# fuck the bash completion, causes compinit to warn about insecure whatsits
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Rustup -- rustc toolchain manager
+# rustup binaries for cargo, rustc, etc which redirect to the active toolchain is:
+#   $(brew --prefix rustup)/bin
+# but avoiding running brew because of autoupdates which require adminit privs.
+export PATH="/usr/local/opt/rustup/bin:$PATH"
+
+#SHH: Files not used:
+# .zlogin
+#   is sourced on the start of a login shell but after .zshrc if the
+#   shell is also interactive. This file is often used to start X using startx.
+#   Some systems start X on boot, so this file is not always very useful.
+# .zlogout
+#   is sometimes used to clear and reset the terminal. It is called when
+#   exiting, not when opening.

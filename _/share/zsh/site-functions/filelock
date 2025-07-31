@@ -1,0 +1,8 @@
+#!/bin/sh
+
+flag="uchg"
+[[ "$1" == "--off" ]] && { flag="nouchg"; shift; }
+[[ "$1" == "-r" ]] && { opt="-R"; shift; }
+chflags $opt $flag "${@}"
+
+unset flag

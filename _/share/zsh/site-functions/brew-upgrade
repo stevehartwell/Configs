@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+function brew-upgrade() {
+    set -e
+
+    brew update && cd /usr/local/Homebrew && git rebase main
+
+    caffeinate brew upgrade --formula "${@}" \
+    && caffeinate brew cu --quiet --all --no-quarantine --no-brew-update --cleanup
+}

@@ -1,26 +1,29 @@
-! https://photon-reddit.com
+! https://photon-reddit.com,NUCintosh.local,localhost
+
+! https://drive.google.com/uc?export=download&id=1-9cGGCfjd7elSt30EeRaSVNPm8pzfLGK
+
 
 ! UI Cosmetic filters
 !
-photon-reddit.com##.voteButton, .upvotes
-photon-reddit.com##.postAndComments > .markdownForm
+photon-reddit.com,NUCintosh.local,localhost##.voteButton, .upvotes
+photon-reddit.com,NUCintosh.local,localhost##.postAndComments > .markdownForm
 
 ! Post Filters
 
 !!! Examples
 !!! Subreddit filters
-!photon-reddit.com##ph-post:has(> a[href^="/r/junk/"])
-!photon-reddit.com##ph-post > a[href*="junk" i]:upward(1)
-!photon-reddit.com##ph-post:has(> a:matches-attr(href=/[^/]*junk[^/]*\//))
+!photon-reddit.com,NUCintosh.local,localhost##ph-post:has(> a[href^="/r/junk/"])
+!photon-reddit.com,NUCintosh.local,localhost##ph-post > a[href*="junk" i]:upward(1)
+!photon-reddit.com,NUCintosh.local,localhost##ph-post:has(> a:matches-attr(href=/[^/]*junk[^/]*\//))
 !!! Post title filters
-!photon-reddit.com##ph-post:has(div.title:has-text(/\b(junk|trash)\b/i))
+!photon-reddit.com,NUCintosh.local,localhost##ph-post:has(div.title:has-text(/\b(junk|trash)\b/i))
 !!! User filters
-!photon-reddit.com##ph-post:has(.header a.user:matches-attr(href=/user/x))
+!photon-reddit.com,NUCintosh.local,localhost##ph-post:has(.header a.user:matches-attr(href=/user/x))
 
 !!!
 ! Post title keyword filters
 !
-photon-reddit.com##ph-post:has(div.title:has-text(/\b( \
+photon-reddit.com,NUCintosh.local,localhost##ph-post:has(div.title:has-text(/\b( \
     elon|musk|trump|vance \
     |CEO shooter|luigi|mangione \
     |chat-?gpt \
@@ -30,10 +33,10 @@ photon-reddit.com##ph-post:has(div.title:has-text(/\b( \
 !
 
 !! subreddits beginning with ___
-photon-reddit.com##ph-post:has(> a:matches-attr(href=/^\/r\/Ask/i)):remove()
+photon-reddit.com,NUCintosh.local,localhost##ph-post:has(> a:matches-attr(href=/^\/r\/Ask/i)):remove()
 
 !! subreddits with ___ anywhere
-photon-reddit.com##ph-post:has(> a:matches-attr(href=/^\/r\/[^/]*( \
+photon-reddit.com,NUCintosh.local,localhost##ph-post:has(> a:matches-attr(href=/^\/r\/[^/]*( \
     anime|comicbook|fortnite|gam(e|ing)|mains|pokemon \
     |animals|bird|cats|dogs|kitt|pupp \
     |advice|circlejerk|dank|imaginary|interesting|memes|porn|shit|smile \
@@ -43,7 +46,7 @@ photon-reddit.com##ph-post:has(> a:matches-attr(href=/^\/r\/[^/]*( \
 !-------------------------------------------------------------------------------
 ! posts from banned users
 !
-photon-reddit.com##ph-post:has(.header a.user:matches-attr(href=/^\/user\/( \
+photon-reddit.com,NUCintosh.local,localhost##ph-post:has(.header a.user:matches-attr(href=/^\/user\/( \
     Beginning_Crew_8548 \
     |BunyipPouch \
     |CheetahSperm18 \
@@ -61,5 +64,5 @@ photon-reddit.com##ph-post:has(.header a.user:matches-attr(href=/^\/user\/( \
     )$/)):remove()
 
 !! posts from subreddits matching ____ exactly (case-sensitive)
-!
-!#include photon-reddit-uBO-subbans.txt
+!!
+!! not used: !#include photon-reddit-uBO-subbans.txt

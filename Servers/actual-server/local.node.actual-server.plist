@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Label</key>
+		<string>local.node.actual-server</string>
+		<key>LimitLoadToSessionType</key>
+		<string>Background</string>
+		<key>EnvironmentVariables</key>
+		<dict>
+			<key>PATH</key>
+			<string>/bin:/usr/bin:/usr/local/bin</string>
+		</dict>
+		<key>WorkingDirectory</key>
+		<string>/Users/Shared/Servers/actual-server</string>
+		<key>ProgramArguments</key>
+		<array>
+			<string>/usr/local/bin/npx</string>
+			<string>actual-server</string>
+			<string>--config</string>
+			<string>./config.json</string>
+		</array>
+		<key>RunAtLoad</key>
+		<true/>
+		<key>StandardErrorPath</key>
+		<string>actual-server.log</string>
+		<key>StandardOutPath</key>
+		<string>actual-server.log</string>
+	</dict>
+</plist>

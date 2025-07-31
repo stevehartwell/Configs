@@ -10,6 +10,18 @@
 @import 'shh-csshacks/topFindBar.css';
 /* Move Find Bar above the page */
 
+/*****************************************************/
+:root[titlepreface="᠎"] { /* Style 1 */
+    color: red !important;
+}
+:root[titlepreface="​"] { /* Style 2 */
+    color: blue !important;
+}
+:root[titlepreface="‌"] { /* Style 3 */
+    color: green !important;
+}
+/*****************************************************/
+
 
 /* Doesn't work on macOS:
 #profiles-menu { display: none !important; }

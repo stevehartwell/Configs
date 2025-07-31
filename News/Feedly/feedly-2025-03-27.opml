@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Ferd subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="Must Read" title="Must Read"/>
+        <outline text="Software" title="Software">
+            <outline type="rss" text="Github Trending: swift" title="Github Trending: swift" xmlUrl="https://mshibanami.github.io/GitHubTrendingRSS/daily/swift.xml" htmlUrl="http://mshibanami.github.io/GitHubTrendingRSS"/>
+        </outline>
+        <outline text="Current Events" title="Current Events">
+            <outline type="rss" text="Kyodo News" title="Kyodo News" xmlUrl="http://english.kyodonews.net/rss/all.xml" htmlUrl="https://english.kyodonews.net/"/>
+            <outline type="rss" text="NHKニュース" title="NHKニュース" xmlUrl="https://www.nhk.or.jp/rss/news/cat0.xml" htmlUrl="http://www3.nhk.or.jp/news/"/>
+            <outline type="rss" text="Japan Today" title="Japan Today" xmlUrl="http://japantoday.com/feed/atom" htmlUrl="https://japantoday.com/"/>
+            <outline type="rss" text="Keepa Price Drop Notifier" title="Keepa Price Drop Notifier" xmlUrl="https://dyn.keepa.com/v2/user/rss/?feed=l6frdsrektmoai97dq2ol1has4kl964l" htmlUrl="https://keepa.com/#!notification"/>
+            <outline type="rss" text="SoraNews24 -Japan News-" title="SoraNews24 -Japan News-" xmlUrl="http://en.rocketnews24.com/feed/" htmlUrl="https://soranews24.com"/>
+            <outline type="rss" text="BBC World News" title="BBC World News" xmlUrl="https://morss.it/feeds.bbci.co.uk/news/rss.xml" htmlUrl="https://www.bbc.co.uk/news"/>
+            <outline type="rss" text="/r/news" title="/r/news" xmlUrl="https://api.reddit.com/subreddit/news" htmlUrl="https://www.reddit.com/r/news/new"/>
+        </outline>
+        <outline text="Magazines" title="Magazines">
+            <outline type="rss" text="食と料理 - 朝日新聞" title="食と料理 - 朝日新聞" xmlUrl="http://rss.asahi.com/f/asahi_food" htmlUrl="https://www.asahi.com/"/>
+            <outline type="rss" text="Electric Bike Report" title="Electric Bike Report" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6l6UFrHAcx1_w0wcWLjwRA" htmlUrl="https://www.youtube.com/channel/UC6l6UFrHAcx1_w0wcWLjwRA"/>
+            <outline type="rss" text="NHKニュース|文化・エンタメ" title="NHKニュース|文化・エンタメ" xmlUrl="https://www.nhk.or.jp/rss/news/cat2.xml" htmlUrl="http://www3.nhk.or.jp/news/"/>
+            <outline type="rss" text="ebikes | Electrek" title="ebikes | Electrek" xmlUrl="https://electrek.co/guides/ebikes/feed/" htmlUrl="https://electrek.co/guides/ebikes/"/>
+            <outline type="rss" text="Stories by Dr. Jason Fung on Medium" title="Stories by Dr. Jason Fung on Medium" xmlUrl="https://medium.com/feed/@drjasonfung" htmlUrl="https://medium.com/@drjasonfung?source=rss-67900d58acac------2"/>
+            <outline type="rss" text="ProPublica" title="ProPublica" xmlUrl="https://www.propublica.org/feeds/propublica/main" htmlUrl="https://www.propublica.org/"/>
+            <outline type="rss" text="Electric Bikes Blog" title="Electric Bikes Blog" xmlUrl="http://electricbikeblog.com/feed/" htmlUrl="https://electricbikeblog.com"/>
+            <outline type="rss" text="トラベル - 朝日新聞" title="トラベル - 朝日新聞" xmlUrl="http://www3.asahi.com/rss/travel.rdf" htmlUrl="https://www.asahi.com/"/>
+        </outline>
+        <outline text="Tech" title="Tech">
+            <outline type="rss" text="BBC Tech" title="BBC Tech" xmlUrl="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/technology/rss.xml" htmlUrl="https://www.bbc.co.uk/news/technology"/>
+            <outline type="rss" text="CNET Deals" title="CNET Deals" xmlUrl="https://www.cnet.com/rss/deals" htmlUrl="https://www.cnet.com/#ftag=CAD590a51e"/>
+            <outline type="rss" text="TechRadar" title="TechRadar" xmlUrl="https://www.techradar.com/rss/reviews/audio-visual" htmlUrl="https://www.techradar.com"/>
+            <outline type="rss" text="Wired" title="Wired" xmlUrl="http://feeds.wired.com/wired/index" htmlUrl="https://www.wired.com"/>
+            <outline type="rss" text="apple – Ars Technica" title="apple – Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/apple.rss" htmlUrl="https://arstechnica.com"/>
+            <outline type="rss" text="Tech – Ars Technica" title="Tech – Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/gadgets.rss" htmlUrl="https://arstechnica.com"/>
+            <outline type="rss" text="xkcd" title="xkcd" xmlUrl="http://xkcd.com/rss.xml" htmlUrl="https://xkcd.com/"/>
+            <outline type="rss" text="Michael Tsai" title="Michael Tsai" xmlUrl="https://mjtsai.com/blog/feed/" htmlUrl="https://mjtsai.com/blog"/>
+        </outline>
+    </body>
+</opml>

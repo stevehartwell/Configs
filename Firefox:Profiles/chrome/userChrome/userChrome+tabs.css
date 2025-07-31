@@ -4,10 +4,11 @@
 
 /* NOTE: @imports must come before @namespace or any css */
 
-@import url('shh-csshacks/tab-close-left.css');
 /*
- * SHH disabled until fixes for vertical tabs
+ * SHH the following two hacks are disabled until fixes for vertical tabs
  *
+@import url('shh-csshacks/tab-close-left.css');
+
 @import url('firefox-csshacks/chrome/autohide_bookmarks_and_main_toolbars.css');
 /**/
 

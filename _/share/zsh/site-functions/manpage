@@ -1,0 +1,4 @@
+#!/bin/sh
+# thanks, Erica Sadun
+
+man -t "$@"  | open -f -a Preview

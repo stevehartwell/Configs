@@ -1,12 +1,10 @@
-
 ! Hide any startpage.com search results leading to these hosts
-!
-startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*doordash\.[^/]+\//i))
-startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*instacart\.[^/]+\//i))
-startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*pinterest\.[^/]+\//i))
-startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*tiktok\.[^/]+\//i))
-startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*yelp\.[^/]+\//i))
-startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*youtube\.[^/]+\//i))
+
+! https://drive.google.com/uc?export=download&id=1U7FQFYxtl3APswWCiZ5P0mPHOu9pnnPC
+! https://stevehartwell.github.io/Configs/Search/Startpage/startpage-uBO-filters.txt
+! https://raw.githubusercontent.com/stevehartwell/Configs/refs/heads/main/Search/Startpage/startpage-uBO-filters.txt
+
+startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*(doordash|insta(cart|gram)|pinterest|tiktok|yelp|youtube)\.[^/]+\//i))
 
 ! hide tripadvisor subregions
 startpage.com##div.result:has(> div.upper > a:matches-attr(href=/^https?:\/\/([^./]+\.)*tripadvisor\.com\./i))

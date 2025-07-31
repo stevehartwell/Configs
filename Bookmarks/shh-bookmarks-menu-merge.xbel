@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel PUBLIC "+//IDN python.org//DTD XML Bookmark Exchange Language 1.0//EN//XML" "http://pyxml.sourceforge.net/topics/dtds/xbel.dtd">
+<xbel version="1.0">
+<!--- highestId :200: for Floccus bookmark sync browser extension -->
+
+<folder id="195">
+  <title>Mozilla Firefox</title>
+  <bookmark href="https://support.mozilla.org/products/firefox" id="196">
+    <title>Get Help</title>
+  </bookmark>
+  <bookmark href="https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&amp;utm_medium=default-bookmarks&amp;utm_campaign=customize" id="197">
+    <title>Customize Firefox</title>
+  </bookmark>
+  <bookmark href="https://www.mozilla.org/contribute/" id="198">
+    <title>Get Involved</title>
+  </bookmark>
+  <bookmark href="https://www.mozilla.org/about/" id="199">
+    <title>About Us</title>
+  </bookmark>
+</folder>
+<bookmark href="https://separator.floccus.org/?id=242649" id="191">
+  <title>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</title>
+</bookmark>
+<folder id="194">
+  <title>Household</title>
+  <folder id="12">
+    <title>Hello Mobile Replacement</title>
+    <bookmark href="https://www.startpage.com/sp/search" id="57">
+      <title>Startpage Search Results {&quot;id&quot;:&quot;j8RNIgJ8eLLG122&quot;}</title>
+    </bookmark>
+    <bookmark href="https://photon-reddit.com/r/qlink_hellomobile" id="58">
+      <title>r/qlink_hellomobile {&quot;container&quot;:&quot;reddit&quot;,&quot;id&quot;:&quot;j8RNIgJ8eLLG124&quot;,&quot;parentId&quot;:&quot;j8RNIgJ8eLLG122&quot;}</title>
+    </bookmark>
+    <bookmark href="https://photon-reddit.com/r/hellomobile" id="59">
+      <title>r/hellomobile {&quot;container&quot;:&quot;reddit&quot;,&quot;parentId&quot;:&quot;j8RNIgJ8eLLG124&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.startpage.com/sp/search" id="60">
+      <title>Startpage Search Results {&quot;container&quot;:&quot;reddit&quot;,&quot;id&quot;:&quot;j8RNIgJ8eLLG128&quot;}</title>
+    </bookmark>
+    <bookmark href="https://clark.com/cell-phones/hello-mobile-shutdown/" id="61">
+      <title>What’s Happening With Hello Mobile? {&quot;container&quot;:&quot;reddit&quot;,&quot;id&quot;:&quot;j8RNIgJ8eLLG129&quot;,&quot;parentId&quot;:&quot;j8RNIgJ8eLLG128&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.startpage.com/sp/search" id="62">
+      <title>Startpage Search Results {&quot;container&quot;:&quot;reddit&quot;,&quot;id&quot;:&quot;j8RNIgJ8eLLG131&quot;,&quot;parentId&quot;:&quot;j8RNIgJ8eLLG129&quot;}</title>
+    </bookmark>
+    <bookmark href="https://photon-reddit.com/r/NoContract/comments/1hgg80j" id="63">
+      <title>Hello Mobile? - Welcome to Liberty Wireless! You have been upgraded to the $9.25 plan - Photon {&quot;active&quot;:true,&quot;container&quot;:&quot;reddit&quot;,&quot;parentId&quot;:&quot;j8RNIgJ8eLLG131&quot;}</title>
+    </bookmark>
+    <bookmark href="https://prepaidcompare.net/" id="64">
+      <title>Compare Prepaid Phone Plans | PrepaidCompare {&quot;container&quot;:&quot;Shopping&quot;}</title>
+    </bookmark>
+  </folder>
+  <folder id="7">
+    <title>Real-Debrid</title>
+    <bookmark href="https://real-debrid.com/torrents" id="38">
+      <title>Real-Debrid: All-in-one solution {&quot;active&quot;:true}</title>
+    </bookmark>
+    <bookmark href="https://my.real-debrid.com/ZBCKAA2UAATUS/torrents/" id="39">
+      <title>Index of /ZBCKAA2UAATUS/torrents/</title>
+    </bookmark>
+  </folder>
+  <folder id="6">
+    <title>Costco</title>
+    <bookmark href="https://www.startpage.com/sp/search" id="31">
+      <title>Startpage Search Results {&quot;active&quot;:true,&quot;id&quot;:&quot;4bp432tR8hiU22&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.groupon.com/coupons/costco" id="32">
+      <title>Costco Promo Code: $40 Off - July 2024 {&quot;parentId&quot;:&quot;4bp432tR8hiU22&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.stacksocial.com/sales/costco-1-year-gold-star-membership-a-40-digital-costco-shop-card" id="33">
+      <title>Get This Costco Gold Star Membership Deal Today {&quot;active&quot;:true}</title>
+    </bookmark>
+    <bookmark href="https://hosted-pages.id.me/costco-nurse-promotion" id="34">
+      <title>Join today and enroll in auto renewal to get a Costco Shop Card! New Executive Members receive $40. New Gold Star Members receive $20 - ID.me {&quot;parentId&quot;:&quot;4bp432tR8hiU22&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.cnet.com/deals/sign-up-for-a-1-year-costco-membership-and-get-a-gift-card-worth-up-to-40/" id="35">
+      <title>Sign Up for a 1-Year Costco Membership and Get a Gift Card Worth Up to $40 - CNET {&quot;parentId&quot;:&quot;4bp432tR8hiU22&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.cbsnews.com/essentials/costco-membership-deal-sponsored/" id="36">
+      <title>Receive a $40 Digital Costco Shop Card when you sign up for a new Executive Membership with this exclusive promo code - CBS News {&quot;parentId&quot;:&quot;4bp432tR8hiU22&quot;}</title>
+    </bookmark>
+    <bookmark href="https://signin.costco.com/e0714dd4-784d-46d6-a278-3e29553483eb/B2C_1A_SSO_WCS_signup_signin_32/api/CombinedSigninAndSignup/unified?local=signup&amp;csrf_token=WHNHbjBYcGE2S1dMOHhHNWk0Y0xPU1Azd1BOVTlIRytjbjQzTEZZUG4yY0d1MWhlQVE3bnRTdWJHYWZJZytiK3NhcHRuZDN1TVhTcHR4VnZaMUt2OVE9PTsyMDI0LTA3LTEyVDE5OjAzOjAwLjM0MDQ3M1o7S3BoT0VMRHIxeGgyZnNicGVqMUw2UT09O3siT3JjaGVzdHJhdGlvblN0ZXAiOjR9&amp;tx=StateProperties=eyJUSUQiOiIwZmM5ZGI4Mi1iYzhiLTRmMjMtODA4My0wY2U0NGM0N2E3MmQifQ&amp;p=B2C_1A_SSO_WCS_signup_signin_32" id="37">
+      <title>Create Account | Costco</title>
+    </bookmark>
+  </folder>
+</folder>
+<folder id="1">
+  <title>Health</title>
+  <folder id="13">
+    <title>Medicare</title>
+    <bookmark href="https://www.medicare.gov/basics/costs/medicare-costs" id="65">
+      <title>Costs | Medicare {&quot;id&quot;:&quot;We-HLW3Wq7i925&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.medicare.gov/plan-compare/#/?lang=en&amp;year=2024" id="66">
+      <title>Explore your Medicare coverage options {&quot;parentId&quot;:&quot;We-HLW3Wq7i925&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.medicare.gov/health-drug-plans/health-plans/your-health-plan-options" id="67">
+      <title>Your health plan options | Medicare {&quot;id&quot;:&quot;We-HLW3Wq7i927&quot;,&quot;parentId&quot;:&quot;We-HLW3Wq7i925&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options/compare" id="68">
+      <title>Compare types of Medicare Advantage Plans | Medicare {&quot;id&quot;:&quot;We-HLW3Wq7i930&quot;,&quot;parentId&quot;:&quot;We-HLW3Wq7i927&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options/MSA" id="69">
+      <title>Medicare Medical Savings Account (MSA) Plans | Medicare {&quot;id&quot;:&quot;We-HLW3Wq7i931&quot;,&quot;parentId&quot;:&quot;We-HLW3Wq7i930&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options/MSA/Examples" id="70">
+      <title>Examples of Medicare Medical Savings Account (MSA) plans | Medicare {&quot;parentId&quot;:&quot;We-HLW3Wq7i931&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.medicare.gov/health-drug-plans/health-plans/your-coverage-options/MSA/work-with-other-coverage" id="71">
+      <title>How Medicare MSA Plans work with other coverage | Medicare {&quot;active&quot;:true,&quot;parentId&quot;:&quot;We-HLW3Wq7i931&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties" id="72">
+      <title>Avoid late enrollment penalties | Medicare {&quot;parentId&quot;:&quot;We-HLW3Wq7i925&quot;}</title>
+    </bookmark>
+  </folder>
+  <bookmark href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/copd/treating/clinical-trials-for-copd" id="14">
+    <title>COPD Clinical Trials {&quot;container&quot;:&quot;Personal&quot;}</title>
+  </bookmark>
+  <bookmark href="https://cronometer.com/#foods" id="15">
+    <title>Cronometer</title>
+  </bookmark>
+</folder>
+<folder id="2">
+  <title>👨‍🍳 Cooking</title>
+  <folder id="16">
+    <title>Thai</title>
+    <bookmark href="https://www.eatingthaifood.com/thai-recipes/" id="73">
+      <title>Thai Recipes | Eating Thai Food {&quot;container&quot;:&quot;Fooding&quot;}</title>
+    </bookmark>
+    <bookmark href="https://rachelcooksthai.com/green-curry-with-chicken-and-eggplant/" id="74">
+      <title>Green Curry with Chicken and Eggplant | Gaeng Keow Wan Gai | แกงเขียวหวานไก่ - Rachel Cooks Thai {&quot;container&quot;:&quot;Fooding&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.cookingwithnart.com/thai-steamed-squid/" id="75">
+      <title>Thai Steamed Squid with Lime Sauce (Pla Muek Nueng Manao) | Cooking with Nart</title>
+    </bookmark>
+    <bookmark href="https://blog.dtc.ac.th/en/tom-kha-gai-chicken-coconut-soup-with-galangal" id="76">
+      <title>Tom Kha Gai - Chicken Coconut Soup with Galangal</title>
+    </bookmark>
+    <bookmark href="https://hungryinthailand.com/kaeng-som/" id="77">
+      <title>Kaeng Som Recipe (Southern Thai Sour Curry) {&quot;container&quot;:&quot;Fooding&quot;}</title>
+    </bookmark>
+    <bookmark href="https://hungryinthailand.com/thai-kabocha-squash-curry/" id="78">
+      <title>Thai Kabocha Squash Curry Recipe {&quot;container&quot;:&quot;Fooding&quot;}</title>
+    </bookmark>
+  </folder>
+  <folder id="17">
+    <title>Japanese</title>
+    <bookmark href="https://www.justonecookbook.com/ichiju-sansai/" id="79">
+      <title>One Soup Three Dishes - &quot;Ichiju Sansai&quot; (一汁三菜) • Just One Cookbook {&quot;container&quot;:&quot;Fooding&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.justonecookbook.com/japanese-roasted-kabocha-squash/" id="80">
+      <title>Japanese Roasted Kabocha Squash • Just One Cookbook</title>
+    </bookmark>
+    <bookmark href="https://catfishoutofwater.com/roasted-kabocha-squash-seeds/" id="81">
+      <title>Roasted Kabocha Squash Seeds - Catfish Out of Water</title>
+    </bookmark>
+  </folder>
+  <bookmark href="https://www.julieseatsandtreats.com/baked-chicken-legs/" id="18">
+    <title>baked-chicken-legs {&quot;container&quot;:&quot;Cooking&quot;}</title>
+  </bookmark>
+  <bookmark href="https://thewoksoflife.com/pickled-mustard-greens-haam-choy/" id="19">
+    <title>Pickled Mustard Greens (Haam Choy) - The Woks of Life</title>
+  </bookmark>
+  <folder id="20">
+    <title>Papaya</title>
+    <bookmark href="https://thatgirlcookshealthy.com/papaya-chia-pudding/" id="82">
+      <title>Papaya chia pudding - That Girl Cooks Healthy {&quot;active&quot;:true,&quot;container&quot;:&quot;Cooking&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.chilipeppermadness.com/chili-pepper-recipes/salsas/papaya-salsa-recipe/#" id="83">
+      <title>Papaya Salsa - Chili Pepper Madness {&quot;container&quot;:&quot;Cooking&quot;}</title>
+    </bookmark>
+    <bookmark href="https://cookingtheglobe.com/papaya-recipes/" id="84">
+      <title>24 Brilliant Papaya Recipes That Will Satisfy Every Craving {&quot;container&quot;:&quot;Cooking&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.startpage.com/do/dsearch?q=papaya+recipes&amp;cat=web&amp;language=english" id="85">
+      <title>Startpage Search Results {&quot;container&quot;:&quot;Cooking&quot;}</title>
+    </bookmark>
+  </folder>
+  <bookmark href="https://www.allrecipes.com/recipe/11758/baked-ziti-i/" id="21">
+    <title>Baked Ziti Recipe {&quot;active&quot;:true,&quot;container&quot;:&quot;Fooding&quot;}</title>
+  </bookmark>
+  <bookmark href="https://thewoksoflife.com/ma-po-tofu-real-deal/" id="22">
+    <title>Mapo Tofu Recipe: The Real Deal - The Woks of Life {&quot;container&quot;:&quot;Fooding&quot;}</title>
+  </bookmark>
+  <bookmark href="https://photon-reddit.com/r/IndianFood/comments/sz4c4o" id="23">
+    <title>fresh methi leaves? - Photon {&quot;container&quot;:&quot;Cooking&quot;}</title>
+  </bookmark>
+  <folder id="24">
+    <title>Ketchup</title>
+    <bookmark href="https://theconscientiouseater.com/easy-ketchup-recipe/#why-i-started-making-my-own-ketchup-hfcs" id="86">
+      <title>Easy Homemade Ketchup Recipe - The Conscientious Eater {&quot;container&quot;:&quot;Cooking&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.quora.com/What-are-the-ingredients-for-a-ketchup-can" id="87">
+      <title>What are the ingredients for a ketchup can? - Quora {&quot;active&quot;:true,&quot;container&quot;:&quot;Cooking&quot;,&quot;parentId&quot;:&quot;8nFjHmdodmQC194&quot;}</title>
+    </bookmark>
+  </folder>
+  <folder id="25">
+    <title>Cashews</title>
+    <bookmark href="https://www.startpage.com/sp/search" id="88">
+      <title>Startpage Search Results {&quot;active&quot;:true,&quot;container&quot;:&quot;Cooking&quot;,&quot;id&quot;:&quot;J5dEBExeIC7e174&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.bbcgoodfood.com/search?q=Cashew+recipes" id="89">
+      <title>Good Food {&quot;container&quot;:&quot;Cooking&quot;,&quot;id&quot;:&quot;J5dEBExeIC7e175&quot;,&quot;parentId&quot;:&quot;J5dEBExeIC7e174&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.bbcgoodfood.com/recipes/coriander-cashew-salsa" id="90">
+      <title>Coriander &amp; cashew salsa recipe | Good Food {&quot;container&quot;:&quot;Cooking&quot;,&quot;parentId&quot;:&quot;J5dEBExeIC7e175&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.bbcgoodfood.com/recipes/coconut-cashew-butternut-squash-curry" id="91">
+      <title>Coconut cashew &amp; butternut squash curry recipe | Good Food {&quot;container&quot;:&quot;Cooking&quot;,&quot;parentId&quot;:&quot;J5dEBExeIC7e175&quot;}</title>
+    </bookmark>
+  </folder>
+  <folder id="135">
+    <title>DIY Sodastream</title>
+    <bookmark href="https://www.startpage.com/sp/search" id="161">
+      <title>Startpage Search Results {&quot;id&quot;:&quot;QZ3HvXn_kBLz107&quot;}</title>
+    </bookmark>
+    <bookmark href="https://food-hacks.wonderhowto.com/how-to/tired-flat-soda-use-trick-keep-two-liter-bottles-soda-fizzy-longer-0145877/" id="162">
+      <title>Tired of Flat Soda? Use This Trick to Keep Two-Liter Bottles of Soda Fizzy Longer « Food Hacks :: WonderHowTo {&quot;active&quot;:true,&quot;id&quot;:&quot;QZ3HvXn_kBLz113&quot;,&quot;parentId&quot;:&quot;QZ3HvXn_kBLz107&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.amazon.com/Fizz-Keeper-Pump-Cap-liter-units/dp/B0020ML3PM/" id="163">
+      <title>Amazon.com: Jokari Fizz-Keeper Pump Caps, 3 Pack-Count: Bottle Openers: Home &amp; Kitchen {&quot;parentId&quot;:&quot;QZ3HvXn_kBLz113&quot;}</title>
+    </bookmark>
+  </folder>
+</folder>
+<bookmark href="https://separator.floccus.org/?id=461491" id="192">
+  <title>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</title>
+</bookmark>
+<folder id="8">
+  <title>Projects</title>
+  <folder id="40">
+    <title>Electron alt</title>
+    <bookmark href="https://www.startpage.com/sp/search?query=electron+alternative" id="113">
+      <title>electron alternative - Startpage {&quot;id&quot;:&quot;Njq92-zVqZDg107&quot;}</title>
+    </bookmark>
+    <bookmark href="https://github.com/sudhakar3697/awesome-electron-alternatives" id="114">
+      <title>GitHub - sudhakar3697/awesome-electron-alternatives: A curated list of awesome Electron alternatives. {&quot;parentId&quot;:&quot;Njq92-zVqZDg107&quot;}</title>
+    </bookmark>
+    <bookmark href="https://tauri.app/" id="115">
+      <title>Build smaller, faster, and more secure desktop applications with a web frontend | Tauri Apps {&quot;active&quot;:true}</title>
+    </bookmark>
+    <bookmark href="https://trav.sh/keep/" id="116">
+      <title>Keep | Run Google Keep in the menu bar {&quot;parentId&quot;:&quot;Njq92-zVqZDg107&quot;}</title>
+    </bookmark>
+  </folder>
+  <folder id="41">
+    <title>WebScraping</title>
+    <bookmark href="https://www.zenrows.com/blog/web-scraping-javascript-nodejs#extract-data" id="117">
+      <title>Web Scraping in JavaScript and Node.js - ZenRows {&quot;container&quot;:&quot;WebScraping&quot;}</title>
+    </bookmark>
+    <bookmark href="https://cheerio.js.org/docs/advanced/extract#putting-it-all-together" id="118">
+      <title>Extracting Data with the extract Method | cheerio {&quot;container&quot;:&quot;WebScraping&quot;}</title>
+    </bookmark>
+    <bookmark href="https://github.com/search?q=web+scraper+language%3AJavaScript&amp;type=repositories&amp;s=updated&amp;o=desc&amp;p=7" id="119">
+      <title>Repository search results · GitHub {&quot;container&quot;:&quot;WebScraping&quot;}</title>
+    </bookmark>
+    <bookmark href="https://crawlee.dev/docs/guides/docker-images" id="120">
+      <title>Running in Docker | Crawlee {&quot;container&quot;:&quot;WebScraping&quot;}</title>
+    </bookmark>
+    <bookmark href="https://docs.apify.com/academy" id="121">
+      <title>Web Scraping Academy | Academy | Apify Documentation {&quot;active&quot;:true,&quot;container&quot;:&quot;WebScraping&quot;}</title>
+    </bookmark>
+  </folder>
+  <folder id="42">
+    <title>e-bikes</title>
+    <bookmark href="https://www.startpage.com/sp/search" id="122">
+      <title>Startpage Search Results {&quot;container&quot;:&quot;Cooking&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.mbr.co.uk/buyers_guide/best-ebike-motor-388838" id="123">
+      <title>Which is the best ebike motors? Our experts give their verdict - MBR {&quot;container&quot;:&quot;Browsing&quot;}</title>
+    </bookmark>
+    <bookmark href="https://ride1up.com/" id="124">
+      <title>Electric Bikes: Find The Best Value Electric Bike | Ride1Up {&quot;active&quot;:true,&quot;container&quot;:&quot;Browsing&quot;}</title>
+    </bookmark>
+  </folder>
+  <bookmark href="https://en.wikipedia.org/wiki/XOXO_(microformat)" id="43">
+    <title>XOXO (microformat) - Wikipedia {&quot;parentId&quot;:&quot;8nFjHmdodmQC59&quot;}</title>
+  </bookmark>
+  <bookmark href="https://en.wikipedia.org/wiki/XBEL" id="44">
+    <title>XBEL - Wikipedia {&quot;id&quot;:&quot;8nFjHmdodmQC59&quot;,&quot;parentId&quot;:&quot;8nFjHmdodmQC58&quot;}</title>
+  </bookmark>
+  <bookmark href="https://en.wikipedia.org/wiki/OPML" id="45">
+    <title>OPML - Wikipedia {&quot;id&quot;:&quot;8nFjHmdodmQC58&quot;,&quot;parentId&quot;:&quot;8nFjHmdodmQC56&quot;}</title>
+  </bookmark>
+  <bookmark href="https://pyxml.sourceforge.net/topics/xbel/" id="46">
+    <title>The XML Bookmark Exchange Language Resource Page {&quot;parentId&quot;:&quot;8nFjHmdodmQC54&quot;}</title>
+  </bookmark>
+  <bookmark href="https://pyxml.sourceforge.net/topics/dtds/" id="47">
+    <title>XML-SIG DTDs {&quot;id&quot;:&quot;8nFjHmdodmQC54&quot;}</title>
+  </bookmark>
+  <folder id="10">
+    <title>Japanese Language Study</title>
+    <bookmark href="https://thunderguy.com/japan/learn-japanese/classes/so-you-want-to-learn-japanese/" id="51">
+      <title>So You Want To Learn Japanese?</title>
+    </bookmark>
+    <bookmark href="https://morg.systems/Japanese" id="52">
+      <title>Japanese - Morg Systems {&quot;id&quot;:&quot;SzigX6n5-HMs58&quot;}</title>
+    </bookmark>
+    <bookmark href="https://morg.systems/Japanese-Primer" id="53">
+      <title>Japanese Primer - Morg Systems {&quot;parentId&quot;:&quot;SzigX6n5-HMs58&quot;}</title>
+    </bookmark>
+    <bookmark href="https://morg.systems/Reading-children-books-or-fairytales" id="54">
+      <title>Reading children’s books or fairytales - Morg Systems {&quot;id&quot;:&quot;SzigX6n5-HMs62&quot;,&quot;parentId&quot;:&quot;SzigX6n5-HMs58&quot;}</title>
+    </bookmark>
+    <bookmark href="https://jpdb.io/settings" id="55">
+      <title>Settings – jpdb {&quot;active&quot;:true,&quot;id&quot;:&quot;SzigX6n5-HMs90&quot;,&quot;parentId&quot;:&quot;SzigX6n5-HMs62&quot;}</title>
+    </bookmark>
+    <bookmark href="https://jpdb.io/faq#KanjiKeywords" id="56">
+      <title>Frequently asked questions – jpdb {&quot;parentId&quot;:&quot;SzigX6n5-HMs90&quot;}</title>
+    </bookmark>
+  </folder>
+</folder>
+<folder id="190">
+  <title>Finances</title>
+  <folder id="5">
+    <title>Actual Discord</title>
+    <bookmark href="https://discord.com/channels/937901803608096828/1027966372862505021" id="30">
+      <title>• Discord | #support | Actual {&quot;active&quot;:true}</title>
+    </bookmark>
+  </folder>
+  <folder id="9">
+    <title>Banking</title>
+    <folder id="48">
+      <title>IntlBank</title>
+      <folder id="125">
+        <title>IBKR</title>
+        <bookmark href="https://mabanque.bnpparibas/en/home" id="137">
+          <title>BNP Paribas</title>
+        </bookmark>
+        <bookmark href="https://www.startpage.com/sp/search?query=IBKR" id="138">
+          <title>IBKR - Startpage</title>
+        </bookmark>
+        <bookmark href="https://photon-reddit.com/r/interactivebrokers/comments/ul2xpd" id="139">
+          <title>IBKR as multi-currency, multinational account for expats - Photon {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://www.interactivebrokers.com/en/home.php" id="140">
+          <title>Home | Interactive Brokers LLC</title>
+        </bookmark>
+        <bookmark href="https://www.expatfinance.us/general/ibkr-money-transfers" id="141">
+          <title>ExpatFinance.us - IBKR money transfers</title>
+        </bookmark>
+        <bookmark href="https://www.interactivebrokers.com/referral/carla560" id="142">
+          <title>IBKR Referral Invitation</title>
+        </bookmark>
+      </folder>
+      <folder id="126">
+        <title>Revolut</title>
+        <bookmark href="https://wise.com/us/blog/revolut-vs-wise" id="143">
+          <title>Revolut vs Wise: Which is better in 2024? Fees, Cards &amp; More - Wise {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://www.revolut.com/en-US/revolut-under-18/" id="144">
+          <title>Revolut &lt;18 - Revolut, built for teens | Revolut United States {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://www.revolut.com/en-US/legal/premium-fees/" id="145">
+          <title>Premium Fees | Revolut United States {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+      </folder>
+      <folder id="127">
+        <title>Monito</title>
+        <bookmark href="https://www.monito.com/en/neobanks#foreign-accounts" id="146">
+          <title>Best Neobanks List in 2024: Our Top Online &amp; Neobanks {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://www.monito.com/en/send-money-with/revolut#pricing" id="147">
+          <title>Revolut Card, App, Fees &amp; Safety: Ultimate Monito 2023 Review {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://www.monito.com/en/wiki/multi-currency-account" id="148">
+          <title>The Best Multi Currency Accounts and How They Work {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+      </folder>
+      <folder id="128">
+        <title>Halo Financial</title>
+        <bookmark href="https://www.facebook.com/HaloFinancial/" id="149">
+          <title>Halo Financial - International Money Transfers | London | Facebook {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://www.halofinancial.com/about-halo/faqs#tab-id-5" id="150">
+          <title>Frequently Asked Questions - FAQs - Halo Financial {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://www.halofinancial.com/what-is-a-sepa-transfer" id="151">
+          <title>What is a SEPA transfer and how do I use it? {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://www.halofinancial.com/money-transfer-services/send-money-to-france" id="152">
+          <title>Send money to France from the United Kingdom {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+      </folder>
+      <folder id="129">
+        <title>Wise</title>
+        <bookmark href="https://photon-reddit.com/r/ExpatFinance/comments/qfne24" id="153">
+          <title>How good is Wise multi-currency account as a bank account? How good is Wise Debit card? - Photon {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://photon-reddit.com/r/AskUK/comments/ykjxpn" id="154">
+          <title>What&apos;s your review of Wise Multicurrency Account? - Photon {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://wise.com/us/pricing/" id="155">
+          <title>Wise Fees &amp; Pricing: Only Pay for What You Use {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://www.monito.com/en/send-money-with/wise-multi-currency-account#service" id="156">
+          <title>Wise Multi-Currency Account Review: Pros, Cons, and More {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://wise.com/us/long-form-disclosure-tw-inc" id="157">
+          <title>long-form-disclosure-tw-inc {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://wise.com/help/articles/2559761/how-to-pay-by-bank-transfer" id="158">
+          <title>How to pay by bank transfer | Wise Help Centre {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+        <bookmark href="https://wise.com/gb/large-amounts/#how-to-move-big-money" id="159">
+          <title>Large Amount Transfers | Transfer Large Sums of Money | Wise {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+        </bookmark>
+      </folder>
+      <bookmark href="https://selectra.info/finance/guides/compte-bancaire/comparatif-agregateurs#bankin-linxo-gerer-mes-comptes-budgea-les-applications-en-detail" id="130">
+        <title>agrégateurs de compte</title>
+      </bookmark>
+      <bookmark href="https://www.startpage.com/do/dsearch?q=Multicurrency+accounts+reddit&amp;cat=web&amp;language=english" id="131">
+        <title>Startpage Search Results {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+      </bookmark>
+      <bookmark href="https://www.startpage.com/do/dsearch?q=use+us+credit+card+for+japan+online+purchase&amp;cat=web&amp;language=english" id="132">
+        <title>Startpage Search Results {&quot;active&quot;:true,&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+      </bookmark>
+      <bookmark href="https://www.startpage.com/do/dsearch?q=euro+account+us+bank+&amp;cat=web&amp;language=english" id="133">
+        <title>Startpage Search Results {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+      </bookmark>
+      <bookmark href="https://www.startpage.com/do/dsearch?q=transfer+euro+to+usa&amp;cat=web&amp;language=english" id="134">
+        <title>Startpage Search Results {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+      </bookmark>
+      <bookmark href="https://photon-reddit.com/r/JapanTravelTips/comments/17n1ajs" id="165">
+        <title>Using US Visa credit/debit card in Japan - Photon {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+      </bookmark>
+      <bookmark href="https://photon-reddit.com/r/Banking/comments/140qm0o" id="166">
+        <title>How to open a bank account in foreign currency in the US for small business? - Photon {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+      </bookmark>
+      <bookmark href="https://www.nerdwallet.com/article/banking/multi-currency-account" id="167">
+        <title>Multicurrency Account: What Is It and How Does It Work? - NerdWallet {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+      </bookmark>
+      <bookmark href="https://www.cnb.com/personal-banking/international-banking.html#accordion-ce57985f05-item-e7522c50f8" id="168">
+        <title>International Banking | City National Bank {&quot;container&quot;:&quot;Int&apos;l Banking&quot;}</title>
+      </bookmark>
+    </folder>
+    <bookmark href="https://time.com/personal-finance/article/best-fixed-income-investments/" id="49">
+      <title>Best Fixed Income Investments in 2024 | TIME Stamped {&quot;active&quot;:true,&quot;container&quot;:&quot;Banking&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.startpage.com/do/dsearch?q=2024+fixed+income+investments&amp;cat=web&amp;language=english" id="50">
+      <title>Startpage Search Results {&quot;container&quot;:&quot;Banking&quot;}</title>
+    </bookmark>
+  </folder>
+  <folder id="136">
+    <title>Dividends</title>
+    <bookmark href="https://www.youtube.com/watch?v=yHsT3Pp-pl8" id="169">
+      <title>Fund Overview: NEOS S&amp;P 500 High Income ETF (SPYI) - YouTube {&quot;container&quot;:&quot;sandbox&quot;,&quot;parentId&quot;:&quot;2YiNomlkwtbs158&quot;}</title>
+    </bookmark>
+    <bookmark href="https://photon-reddit.com/r/dividends/comments/1hzvoeo" id="170">
+      <title>$5,000 per month income portfolio - Photon {&quot;active&quot;:true,&quot;container&quot;:&quot;reddit&quot;,&quot;id&quot;:&quot;2YiNomlkwtbs158&quot;}</title>
+    </bookmark>
+    <bookmark href="https://photon-reddit.com/r/dividends/wiki/faq" id="171">
+      <title>r/dividends Wiki - Photon {&quot;container&quot;:&quot;reddit&quot;,&quot;parentId&quot;:&quot;2YiNomlkwtbs158&quot;}</title>
+    </bookmark>
+  </folder>
+</folder>
+<folder id="4">
+  <title>Trips</title>
+  <folder id="26">
+    <title>Cabo San Lucas</title>
+    <bookmark href="https://www.expedia.com/Los-Cabos-Hotels-Cabo-Vista-Hotel-Adults-Only.h9117806.Hotel-Information?startDate=2024-07-07&amp;endDate=2024-07-17&amp;x_pwa=1&amp;rfrr=HSR&amp;pwa_ts=1719001441502&amp;referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&amp;useRewards=false&amp;rm1=a2&amp;regionId=180032&amp;destination=Cabo%20San%20Lucas%2C%20Baja%20California%20Sur%2C%20Mexico&amp;destType=MARKET&amp;neighborhoodId=553248635976400410&amp;latLong=22.890533%2C-109.91674&amp;badgeType=0&amp;sort=PRICE_LOW_TO_HIGH&amp;top_dp=1283.85&amp;top_cur=USD&amp;userIntent=&amp;origin=San%20Francisco%2C%20CA%2C%20United%20States%20of%20America%20%28SFO-San%20Francisco%20Intl.%29&amp;tripType=ROUND_TRIP&amp;cabinClass=COACH&amp;misId=AgiCk-Wu4tzCuIABELju69zviLeorAEgwbOzUg~ARIEGgIIAhoxCAESFgoDU0ZPGNOMvQIqCjIwMjQtMDctMDcSFQoDU0pEGMD-CioKMjAyNC0wNy0xNw&amp;packageType=fh&amp;selectedRoomType=201444755&amp;selectedRatePlan=207213337&amp;mipt=AQoDVVNEEigKBggCEILXBRIGCAIQgtcFGgYIAhDknREiBggCEN6nBCoGCAIQpK8BGisKBggCEID_CRIGCAIQgP8JGgUIARCgRyIGCAIQwLYEKgIIAjIGCAIQwLYE&amp;searchId=25f968ee-41ab-4b4b-9281-140e38f91f3e&amp;propertyName=Cabo%20Vista%20Hotel%20-%20Adults%20only&amp;pwaThumbnailDialog=thumbnail-gallery" id="92">
+      <title>Cabo Vista Hotel - Adults only</title>
+    </bookmark>
+    <bookmark href="https://www.startpage.com/sp/search" id="93">
+      <title>Startpage Search Results {&quot;id&quot;:&quot;60Y57MGK6Qmc150&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.casadorada.com/restaurants.html" id="94">
+      <title>Restaurants | Hotel Casa Dorada Resort &amp; Spa | Los Cabos {&quot;parentId&quot;:&quot;60Y57MGK6Qmc150&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.startpage.com/sp/search" id="95">
+      <title>Startpage Search Results {&quot;id&quot;:&quot;60Y57MGK6Qmc153&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.flannelsorflipflops.com/the-best-resort-day-passes-in-cabo-san-lucas/" id="96">
+      <title>The Best Resort Day Passes In Cabo San Lucas {&quot;id&quot;:&quot;60Y57MGK6Qmc166&quot;,&quot;parentId&quot;:&quot;60Y57MGK6Qmc153&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.resortforaday.com/solmar-resort-cabo-san-lucas/?Click=92360" id="97">
+      <title>Solmar Resort Cabo San Lucas Day Pass for Cruisers | Resort for a Day {&quot;id&quot;:&quot;60Y57MGK6Qmc167&quot;,&quot;parentId&quot;:&quot;60Y57MGK6Qmc166&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.startpage.com/sp/search" id="98">
+      <title>Startpage Search Results {&quot;id&quot;:&quot;60Y57MGK6Qmc168&quot;,&quot;parentId&quot;:&quot;60Y57MGK6Qmc167&quot;}</title>
+    </bookmark>
+    <bookmark href="https://solmarresort.solmar.com/" id="99">
+      <title>Solmar Resort | Cabo San Lucas {&quot;parentId&quot;:&quot;60Y57MGK6Qmc168&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.google.com/maps/place/Solmar+Resort/@22.8769866,-109.9117749,15z/data=!4m11!3m10!1s0x86af4ae07779bd89:0x4dee6b776a6925bf!5m4!1s2024-07-07!2i10!4m1!1i2!8m2!3d22.876556!4d-109.9035334!16s%2Fg%2F1pt_cfwxr?entry=ttu" id="100">
+      <title>Solmar Resort - Google Maps {&quot;active&quot;:true}</title>
+    </bookmark>
+    <bookmark href="https://www.airbnb.com/s/Cabo-San-Lucas--Baja-California-Sur--Mexico/homes?tab_id=home_tab&amp;refinement_paths%5B%5D=%2Fhomes&amp;flexible_trip_lengths%5B%5D=one_week&amp;monthly_start_date=2024-07-01&amp;monthly_length=3&amp;monthly_end_date=2024-10-01&amp;price_filter_input_type=2&amp;channel=EXPLORE&amp;query=Cabo%20San%20Lucas%2C%20Baja%20California%20Sur%2C%20Mexico&amp;place_id=ChIJoQjlifNKr4YRaLiiwWLfpEs&amp;date_picker_type=calendar&amp;checkin=2024-07-07&amp;checkout=2024-07-17&amp;adults=2&amp;source=structured_search_input_header&amp;search_type=filter_change&amp;search_mode=regular_search&amp;price_filter_num_nights=10&amp;ne_lat=22.89278055830895&amp;ne_lng=-109.90212556023971&amp;sw_lat=22.88245303433866&amp;sw_lng=-109.91229121305764&amp;zoom=15.843325451958233&amp;zoom_level=15&amp;search_by_map=true&amp;price_max=900&amp;room_types%5B%5D=Entire%20home%2Fapt" id="101">
+      <title>Airbnb | Cabo San Lucas - Vacation Rentals &amp; Places to Stay - Baja California Sur</title>
+    </bookmark>
+    <bookmark href="https://www.airbnb.com/rooms/686282804226943758?productId=686282804226943758&amp;check_in=2024-07-06&amp;check_out=2024-07-15&amp;guests=1&amp;adults=2&amp;children=0&amp;infants=0&amp;pets=0&amp;source_impression_id=p3_1719004291_P3101jYn5IvU8O-f" id="164">
+      <title>Best Location Suite EL SOL @ Cabo&apos;s DOWNTOWN - Lofts for Rent in Cabo San Lucas, Baja California Sur, Mexico - Airbnb</title>
+    </bookmark>
+  </folder>
+  <folder id="27">
+    <title>hiroshima weekly mansions</title>
+    <bookmark href="https://www.good-monthly.com/detail/?bukken_no=131460" id="102">
+      <title>Joyful 21 (2 min walk from Yoshijima Hospital, free internet, 2 burner stove) (Yoshijimashinmachi, Naka-ku, Hiroshima City, Hiroshima Prefecture) Monthly apartment details | Good Monthly {&quot;pinned&quot;:true,&quot;parentId&quot;:&quot;7isrwyHsbYau292&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.good-monthly.com/detail/?bukken_no=131917" id="103">
+      <title>Artemis Aki (★Parking available, convenience store and supermarket within walking distance, top floor corner room) (Ozu, Minami-ku, Hiroshima City, Hiroshima Prefecture) Monthly apartment details | Good Monthly {&quot;pinned&quot;:true,&quot;parentId&quot;:&quot;7isrwyHsbYau292&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.good-monthly.com/detail/?bukken_no=141462" id="104">
+      <title>Ujina Corp. (Free Internet, Interior Renovated, TV Monitor Phone) (Hiroshima Prefecture, Hiroshima City, Minami Ward, Ujina Higashi) Monthly Apartment Details | Good Monthly {&quot;pinned&quot;:true}</title>
+    </bookmark>
+    <bookmark href="https://www.good-monthly.com/detail/?bukken_no=145408" id="105">
+      <title>Aqua Court Ujina II (fully renovated, free internet, public bath next door!) (Ujina Kaigan, Minami-ku, Hiroshima City, Hiroshima Prefecture) Monthly apartment details | Good Monthly {&quot;pinned&quot;:true,&quot;parentId&quot;:&quot;7isrwyHsbYau292&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.good-monthly.com/detail/?bukken_no=157196" id="106">
+      <title>Villa Kaigandori (fully renovated, right in front of the tram stop, with elevator!) (Ujina Kaigan, Minami-ku, Hiroshima City, Hiroshima Prefecture) Monthly apartment details | Good Monthly {&quot;pinned&quot;:true,&quot;parentId&quot;:&quot;7isrwyHsbYau292&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.good-monthly.com/hiroshima/search/" id="107">
+      <title>広島県のマンスリーマンションを市区町村から検索 | グッドマンスリー広島 {&quot;id&quot;:&quot;7isrwyHsbYau292&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.good-monthly.com/detail/?bukken_no=131461" id="108">
+      <title>Happo Building (3 minutes walk from JR Nishi-Hiroshima Station, TV monitor phone, many restaurants nearby) (Koihonmachi, Nishi-ku, Hiroshima City, Hiroshima Prefecture) Monthly apartment details | Good Monthly</title>
+    </bookmark>
+    <bookmark href="https://www.good-monthly.com/detail/?bukken_no=131460" id="109">
+      <title>Joyful 21 (2 min walk from Yoshijima Hospital, free internet, 2 burner stove) (Yoshijimashinmachi, Naka-ku, Hiroshima City, Hiroshima Prefecture) Monthly apartment details | Good Monthly</title>
+    </bookmark>
+    <bookmark href="https://www.weekly-monthly.net/en/hiroshima/search/shousai/63398/" id="110">
+      <title>Sakaimachi Sunny Palace ◎ &quot;1DK, 35 square meters&quot; [separate sink, toilet seat with washing function, 2-burner gas stove]  Property details | Monthly apartment Livemax Hiroshima {&quot;active&quot;:true}</title>
+    </bookmark>
+    <bookmark href="https://www.weekly-monthly.net/en/hiroshima/search/shousai/63398/" id="111">
+      <title>Sakaimachi Sunny Palace ◎ &quot;1DK, 35 square meters&quot; [separate sink, toilet seat with washing function, 2-burner gas stove] &lt;Standard series&gt; Property details | Monthly apartment Livemax Hiroshima {&quot;active&quot;:true}</title>
+    </bookmark>
+  </folder>
+  <folder id="28">
+    <title>Jomtien</title>
+  </folder>
+  <folder id="29">
+    <title>Sri Racha</title>
+    <bookmark href="https://iamkohchang.com/blog/koh-si-chang-guide.html" id="112">
+      <title>Koh Si Chang Guide - Updated October 2024 {&quot;container&quot;:&quot;maps&quot;}</title>
+    </bookmark>
+  </folder>
+  <folder id="173">
+    <title>jomtien bike rental</title>
+    <bookmark href="https://www.startpage.com/do/search?sc=nehXomf2A4Wd20&amp;query=jomtien+bicycle+rental&amp;cat=web&amp;qloc=eyJ0eXBlIjogIm5vbmUifQ%3D%3D" id="174">
+      <title>Startpage Search Results {&quot;id&quot;:&quot;7Z1rwpOYJDP115&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.thailandreisender.de/best-bike-rentals-pattaya/" id="175">
+      <title>Top Bike Rentals in Pattaya - 2024 Update {&quot;id&quot;:&quot;7Z1rwpOYJDP133&quot;,&quot;parentId&quot;:&quot;7Z1rwpOYJDP115&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.bp-rentals.net/" id="176">
+      <title>Buy a Car in Pattaya with Easy Finance for Foreigner {&quot;parentId&quot;:&quot;7Z1rwpOYJDP133&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.facebook.com/cadencecyclepattaya/" id="177">
+      <title>Cadence Cycle Pattaya | Pattaya | Facebook {&quot;parentId&quot;:&quot;7Z1rwpOYJDP115&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.fairrentaljomtien.com/" id="178">
+      <title>Fair Rental Jomtien | Motorbike for rent | 381 Soi Thep Prasit 17, Pattaya City, Bang Lamung District, Chon Buri, Thailand {&quot;parentId&quot;:&quot;7Z1rwpOYJDP115&quot;}</title>
+    </bookmark>
+    <bookmark href="https://www.youtube.com/watch?v=kHkrrXDX8rQ" id="179">
+      <title>Jomtien Beach. Where To Rent A Bicycle in Jomtien Pattaya Thailand. Richmond Bar Soi Welcome - YouTube {&quot;container&quot;:&quot;sandbox&quot;}</title>
+    </bookmark>
+  </folder>
+  <folder id="180">
+    <title>JiangHan Junk</title>
+    <bookmark href="https://loteele.com/" id="182">
+      <title>USB data cable_wiring harness_terminal line_wireless charger_wire processing manufacturer - Jianghan Electronics --- USB数据线_线束_端子线_无线充电器_线材加工厂家 - 江涵电子 {&quot;id&quot;:&quot;8EFYhisffNkI2&quot;}</title>
+    </bookmark>
+    <bookmark href="https://loteele.com/show-85-148-1.html" id="183">
+      <title>Jianghan Bluetooth Anti-Lost Precise Tracker, Anti-Lost Positioning, Finding Reminder, Slim and compact, suitable for Apple iPhone --- 江涵蓝牙防丢器 精确追踪器防丢定位查找提醒纤薄小巧适用苹果iPhone手机 {&quot;id&quot;:&quot;8EFYhisffNkI4&quot;,&quot;parentId&quot;:&quot;8EFYhisffNkI2&quot;}</title>
+    </bookmark>
+    <bookmark href="https://loteele.com/show-85-147-1.html" id="184">
+      <title>Apple&apos;s AirTag has the same tracker tracker as MFI certification --- 苹果AirTag同款定位器跟踪器过MFI认证防丢器 {&quot;active&quot;:true,&quot;parentId&quot;:&quot;8EFYhisffNkI4&quot;}</title>
+    </bookmark>
+  </folder>
+</folder>
+<bookmark href="https://separator.floccus.org/?id=230032" id="193">
+  <title>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</title>
+</bookmark>
+<folder id="160">
+  <title>Gardening</title>
+  <bookmark href="https://www.wired.com/review/tropf-blumat-watering-system/" id="172">
+    <title>Tropf-Blumat Watering System Review: Key to My Gardening Success | WIRED</title>
+  </bookmark>
+</folder>
+<folder id="181">
+  <title>Reference</title>
+  <bookmark href="https://regex101.com/" id="185">
+    <title>regex101: build, test, and debug regex</title>
+  </bookmark>
+  <bookmark href="https://zsh.sourceforge.io/Guide/zshguide.html" id="186">
+    <title>A User&apos;s Guide to the Z-Shell</title>
+  </bookmark>
+  <bookmark href="https://github.com/haokaiyang/Mac-QuickLook" id="187">
+    <title>Mac-QuickLook</title>
+  </bookmark>
+  <bookmark href="https://dzone.com/articles/5-popular-standalone-javascript-spreadhsheet-libra" id="189">
+    <title>5 Popular Standalone JavaScript Spreadsheet Libraries - DZone</title>
+  </bookmark>
+  <bookmark href="https://bash-prompt-generator.org/" id="188">
+    <title>Bash Prompt Generator</title>
+  </bookmark>
+</folder>
+<bookmark href="https://separator.floccus.org/?id=966273" id="200">
+  <title>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</title>
+</bookmark>
+</xbel>

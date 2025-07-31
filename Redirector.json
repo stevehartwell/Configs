@@ -1,13 +1,13 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2025-01-28T09:31:07.197Z",
+    "createdAt": "2025-04-14T03:18:23.670Z",
     "redirects": [
         {
             "description": "Photon Reddit",
             "exampleUrl": "http://www.reddit.com/r/somesub/comments/xyzzy/title_of_comment",
             "exampleResult": "https://photon-reddit.com/r/somesub/comments/xyzzy/title_of_comment",
             "error": null,
-            "includePattern": "https?://(?:www\\.)?reddit\\.com(/?$|/r(?:/[^/]+){1,4})",
+            "includePattern": "https?://(?:(?:www|old)\\.)?reddit\\.com(/?$|/r(?:/[^/]+){1,4})",
             "excludePattern": "",
             "patternDesc": "Photon Reddit",
             "redirectUrl": "https://photon-reddit.com$1",

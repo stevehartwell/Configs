@@ -1,0 +1,40 @@
+#!/bin/sh
+
+##UNFINISHED -- 
+# runas [-][-lm] login -c "cmd args... > out" [arg0 more-args...]
+# runas [-][-lm] login [-is] [script [args...]]
+
+login=root
+su_args=""
+
+for arg in "${@}"
+do
+    case "$arg" in
+    (-?*)   unset OPTIND; while getopts flm opt $arg; do su_args+=" -$opt"; done
+            shift;;
+    (-)     su_args+=" -l";
+            shift;;
+    (*)     login="$arg";
+            shift
+            break;;
+    esac
+done
+
+printf '%s\nok? ' "su $su_args $login $(printf " '%s'" "${@//'/'\\''}")"
+
+if [ "$login" = 'root' -a $# -gt 0 ]
+then
+    admin_scpt='
+    on run argv
+        set qargs to ""
+        repeat with arg in argv
+            set qargs to qargs & " " & the quoted form of arg
+        end repeat
+        return do shell script qargs with administrator privileges
+    end run
+    '
+    osascript -e "$admin_scpt" /bin/sh "${@}" | tr '\r' '\n'
+else
+    su $su_args "$login" "${@}"
+fi
+

@@ -1,0 +1,35 @@
+# Since .zshenv is always sourced, it often contains exported variables that
+# should be available to other programs. For example, ${PATH}, $EDITOR, and
+# $PAGER are often set in .zshenv. Also, you can set $ZDOTDIR in .zshenv to
+# specify an alternative location for the rest of your zsh configuration.
+
+# load order: .zshenv < .zprofile < .zshrc < .zlogin < .zlogout
+
+source /Users/Shared/Configs@/_/etc/zshenv
+
+#------------------------------------------------------------------------------#
+# SSH authorization
+#
+# Default value is something like this:
+# export SSH_AUTH_SOCK=/tmp/com.apple.launchd.hOnIoe4Vdm/Listeners
+
+# Use Bitwarden: DISABLE for now
+## export SSH_AUTH_SOCK="$HOME/Library/Containers/com.bitwarden.desktop/Data/.bitwarden-ssh-agent.sock"
+#
+# NOTE: if using App Store install, socket is located in ~/Library/Containers
+# Otherwise, in $HOME
+#
+# To make available to all apps:
+# launchctl setenv "SSH_AUTH_SOCKET" "$HOME/.bitwarden-ssh-agent.sock"
+
+
+# Homebrew
+#
+eval "$(/usr/local/bin/brew shellenv)"
+
+
+#------------------------------------------------------------------------------#
+# npm -g default global prefix is /usr/local (only writeable by adminit)
+# set it to ~/lib/npm for my use
+#
+export PATH="${HOME}/lib/npm/bin:${PATH}"

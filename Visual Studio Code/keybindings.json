@@ -72,5 +72,35 @@
         "key": "ctrl+shift+`",
         "command": "-workbench.action.terminal.new",
         "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "shift+cmd+,",
+        "command": "workbench.action.openSettingsJson"
+    },
+    {
+        "key": "shift+alt+cmd+,",
+        "command": "workbench.action.openWorkspaceSettingsFile"
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "extension.pickColor"
+    },
+    {
+        "key": "cmd+.",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "alt+cmd+/",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "-workbench.action.showCommands"
     }
 ]

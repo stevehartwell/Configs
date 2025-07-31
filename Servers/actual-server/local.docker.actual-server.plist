@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>local.docker.actual-server</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/Shared/Servers/actual-server</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/docker</string>
+		<string>compose</string>
+		<string>up</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/sh/Library/Logs/actual-server.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/sh/Library/Logs/actual-server.log</string>
+</dict>
+</plist>

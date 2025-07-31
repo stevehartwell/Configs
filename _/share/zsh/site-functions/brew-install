@@ -1,0 +1,3 @@
+#!/bin/sh
+
+caffeinate brew install --no-quarantine "${@}"

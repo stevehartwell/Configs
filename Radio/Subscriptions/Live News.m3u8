@@ -1,0 +1,17 @@
+#EXTM3U
+#PLAYLIST:Live News Streams
+
+#EXTINF:-1,ABC News Live Stream
+https://www.youtube.com/watch?v=w_Ma8oQLmSM
+
+#EXTINF:-1,NBC News Live Stream
+https://youtu.be/5dQHN-ZB5NA
+
+#EXTINF:-1,CBS News Live Stream
+https://youtu.be/sEFvCxJrAZ8
+
+#EXTINF:-1,Bloomberg News Live Stream
+https://youtu.be/mive1tqosS4
+
+#EXTINF:-1,Reuters News Live Stream
+https://youtu.be/TgAOWHJ7PyY

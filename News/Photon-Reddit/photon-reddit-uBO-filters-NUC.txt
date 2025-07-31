@@ -1,0 +1,34 @@
+! Photon-Reddit local server http://NUCintosh.local
+
+!https://drive.google.com/uc?export=download&id=1y32kd-berrPe_Qdlc_PkMPyMTh1KTRFw
+
+! UI Cosmetic filters
+!
+NUCintosh.local##.voteButton, .upvotes
+NUCintosh.local##.postAndComments > .markdownForm
+
+! Post Filters
+
+!!! Examples
+!!! Subreddit filters
+!NUCintosh.local##ph-post:has(> a[href^="/r/junk/"])
+!NUCintosh.local##ph-post > a[href*="junk" i]:upward(1)
+!NUCintosh.local##ph-post:has(> a:matches-attr(href=/[^/]*junk[^/]*\//))
+!!! Post title filters
+!NUCintosh.local##ph-post:has(div.title:has-text(/\b(junk|trash)\b/i))
+!!! User filters
+!NUCintosh.local##ph-post:has(.header a.user:matches-attr(href=/user/x))
+
+!!!
+! Post title keyword filters
+!
+NUCintosh.local##ph-post:has(div.title:has-text(/\b(elon|musk|trump|vance|CEO shooter|luigi|mangione|chat-?gpt)\b/i)):remove()
+
+! Post subreddit filters, regexes
+!
+
+!! subreddits beginning with ___
+NUCintosh.local##ph-post:has(> a:matches-attr(href=/^\/r\/Ask|Rate/i)):remove()
+
+!! subreddits with ___ anywhere
+NUCintosh.local##ph-post:has(> a:matches-attr(href=/^\/r\/[^/]*(advice|animals|anime|battle|bird|cats|circlejerk|comicbook|dank|dogs|fortnite|gam(e|ing)|imaginary|india|interesting|kitt|mains|pokemon|pupp|memes|porn|ratem[ey]|shit|smile|tattoo)[^/]*\//i)):remove()

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+function notify() {
+    eval "$@"
+    result=$?
+    ping $result cmd_notification $result "$@"
+}
